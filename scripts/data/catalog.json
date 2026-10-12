@@ -1,0 +1,5092 @@
+{
+ "course": {
+  "slug": "mrcem-neurology",
+  "title": "MRCEM Neurology",
+  "tag": "Featured pathway",
+  "description": "Explore neurology topics and ready-to-practise OSCE stations for emergency medicine.",
+  "meta": "Topics, cases and examiner guidance",
+  "icon": "brain",
+  "status": "published",
+  "featured": true,
+  "showOnHome": true,
+  "sortOrder": 0
+ },
+ "groups": [
+  {
+   "name": "Stroke and vascular",
+   "sortOrder": 0,
+   "topics": [
+    {
+     "title": "Stroke and TIA",
+     "stationSlug": "stroke-and-tia"
+    },
+    {
+     "title": "Subarachnoid haemorrhage",
+     "stationSlug": "subarachnoid-haemorrhage"
+    },
+    {
+     "title": "Intracerebral haemorrhage"
+    },
+    {
+     "title": "Cerebral venous sinus thrombosis"
+    },
+    {
+     "title": "Carotid and vertebral artery dissection"
+    }
+   ]
+  },
+  {
+   "name": "Headache",
+   "sortOrder": 1,
+   "topics": [
+    {
+     "title": "Thunderclap headache"
+    },
+    {
+     "title": "Migraine and cluster headache",
+     "stationSlug": "headache-migraine-cluster"
+    },
+    {
+     "title": "Giant cell arteritis",
+     "stationSlug": "giant-cell-arteritis"
+    },
+    {
+     "title": "Idiopathic intracranial hypertension"
+    },
+    {
+     "title": "Tension headache and red flags"
+    }
+   ]
+  },
+  {
+   "name": "Seizures",
+   "sortOrder": 2,
+   "topics": [
+    {
+     "title": "First seizure",
+     "stationSlug": "first-seizure"
+    },
+    {
+     "title": "Status epilepticus"
+    },
+    {
+     "title": "Febrile seizure"
+    },
+    {
+     "title": "Non-epileptic attacks"
+    },
+    {
+     "title": "Eclampsia"
+    }
+   ]
+  },
+  {
+   "name": "CNS infection",
+   "sortOrder": 3,
+   "topics": [
+    {
+     "title": "Meningitis",
+     "stationSlug": "meningitis"
+    },
+    {
+     "title": "Encephalitis",
+     "stationSlug": "encephalitis"
+    },
+    {
+     "title": "Brain abscess"
+    }
+   ]
+  },
+  {
+   "name": "Collapse and altered consciousness",
+   "sortOrder": 4,
+   "topics": [
+    {
+     "title": "Syncope versus seizure",
+     "stationSlug": "syncope-versus-seizure"
+    },
+    {
+     "title": "Coma and reduced GCS"
+    },
+    {
+     "title": "Delirium"
+    },
+    {
+     "title": "Wernicke’s encephalopathy",
+     "stationSlug": "wernicke-encephalopathy"
+    },
+    {
+     "title": "Hypoglycaemia as a mimic"
+    }
+   ]
+  },
+  {
+   "name": "Weakness and spinal",
+   "sortOrder": 5,
+   "topics": [
+    {
+     "title": "Cord compression"
+    },
+    {
+     "title": "Cauda equina syndrome",
+     "stationSlug": "cauda-equina"
+    },
+    {
+     "title": "Guillain-Barré syndrome",
+     "stationSlug": "guillain-barre"
+    },
+    {
+     "title": "Myasthenia gravis crisis"
+    },
+    {
+     "title": "Multiple sclerosis relapse"
+    },
+    {
+     "title": "Bell’s palsy",
+     "stationSlug": "bells-palsy"
+    }
+   ]
+  },
+  {
+   "name": "Dizziness",
+   "sortOrder": 6,
+   "topics": [
+    {
+     "title": "BPPV",
+     "stationSlug": "acute-dizziness"
+    },
+    {
+     "title": "Vestibular neuritis",
+     "stationSlug": "acute-dizziness"
+    },
+    {
+     "title": "Posterior circulation stroke (HINTS)",
+     "stationSlug": "acute-dizziness"
+    }
+   ]
+  },
+  {
+   "name": "Head injury and raised pressure",
+   "sortOrder": 7,
+   "topics": [
+    {
+     "title": "Head injury (GCS, CT head criteria)",
+     "stationSlug": "head-injury"
+    },
+    {
+     "title": "Raised intracranial pressure"
+    },
+    {
+     "title": "Subdural and extradural haematoma"
+    }
+   ]
+  },
+  {
+   "name": "Skills often examined",
+   "sortOrder": 8,
+   "topics": [
+    {
+     "title": "Neurological examination (cranial nerves, limbs, gait)"
+    },
+    {
+     "title": "GCS and pupils"
+    },
+    {
+     "title": "Fundoscopy"
+    },
+    {
+     "title": "Lumbar puncture"
+    },
+    {
+     "title": "Reading a CT head"
+    }
+   ]
+  }
+ ],
+ "stations": [
+  {
+   "slug": "stroke-and-tia",
+   "title": "Stroke and TIA",
+   "group": "Stroke and vascular",
+   "category": "Stroke and vascular",
+   "summary": "Focused history taking, examiner guidance and timed practice.",
+   "imageUrl": "/brand/t1.jpg",
+   "status": "published",
+   "featured": true,
+   "showOnHome": true,
+   "sortOrder": 0,
+   "content": {
+    "aim": "Assess focused, patient-centred history taking in a time-critical presentation of suspected stroke, including collateral history from a relative.",
+    "learningOutcomes": [
+     "Open with an open question, then move to closed questions.",
+     "Establish the **time last known well** from a witness, early.",
+     "Cover stroke symptoms and consider mimics.",
+     "Screen for thrombolysis and thrombectomy safety (anticoagulants, bleeding, surgery, trauma).",
+     "Establish premorbid function, explore concerns, and summarise with a plan."
+    ],
+    "instructions": "You are the emergency department doctor. Mr David Okafor, 66, has arrived in Resus by ambulance.\n\nParamedic handover: glucose 6.8 mmol/L, BP 168/94, HR 92 irregular, SpO2 97% on air, GCS 15.\n\nTake a focused history from the patient and his wife. **Do not examine.** At the end, summarise and state your initial plan.",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Patient, Mr David Okafor",
+      "notes": [
+       "**Manner:** calm but frightened, mildly slurred speech.",
+       "**Only after an open question:** \"I was having breakfast and my mouth felt strange. I dropped my cup, then my left arm went heavy. My speech feels funny too.\" After \"anything else?\": \"My vision is a bit blurry on the left.\""
+      ],
+      "items": [],
+      "table": [
+       {
+        "topic": "Onset",
+        "response": "Sudden, about 08:40, slowly worsening"
+       },
+       {
+        "topic": "Symptoms",
+        "response": "Left face droop, left arm heavy, left leg a little weak, slurred speech, left blurred vision"
+       },
+       {
+        "topic": "Denies",
+        "response": "Headache, vomiting, double vision, dizziness, seizure, blackout, chest pain, palpitations, neck pain or injury"
+       },
+       {
+        "topic": "Previous episodes",
+        "response": "None"
+       },
+       {
+        "topic": "PMH",
+        "response": "Hypertension, type 2 diabetes. One fainting episode last year, \"nothing found\""
+       },
+       {
+        "topic": "Drugs",
+        "response": "Aspirin 75 mg, metformin, amlodipine, atorvastatin. **No anticoagulants.** No allergies"
+       },
+       {
+        "topic": "Bleeding risk",
+        "response": "No surgery, trauma, bleeding, black stools or dental work in 3 months. No brain bleed or aneurysm"
+       },
+       {
+        "topic": "Family",
+        "response": "Father had a stroke at 70"
+       },
+       {
+        "topic": "Social",
+        "response": "Ex-smoker (10 years), a few beers at weekends. Lives with wife, drives, gardens, fully independent"
+       },
+       {
+        "topic": "Concerns (if asked)",
+        "response": "\"I think it's a stroke like my dad.\" \"Will I get my arm back? I don't want to be a burden.\""
+       }
+      ]
+     },
+     {
+      "role": "Wife, Mrs Grace Okafor",
+      "notes": [],
+      "items": [
+       "Anxious, speaks quickly, stays close to her husband.",
+       "He was **completely well at 08:30** at breakfast. His face drooped about ten minutes later. She rang 999 at 08:50.",
+       "His speech is \"a bit worse\" since.",
+       "Mentions last year's fainting episode only if asked about past history.",
+       "If not reassured: \"Is he going to die?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and consent",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Hello, I'm Dr Shah, one of the emergency doctors. Can you tell me your full name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "David Okafor, 4th March 1960."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Thank you, David. And you are?"
+       },
+       {
+        "speaker": "witness",
+        "label": "Wife",
+        "text": "Grace, his wife."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "I'd like to ask about this morning, and then we'll move quickly with tests. Is that alright with you both?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Yes, of course."
+       }
+      ]
+     },
+     {
+      "title": "Open question and active listening",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Could you tell me what has been happening this morning, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "I was having breakfast and my mouth felt strange. I dropped my cup, and then my left arm went heavy. My speech feels funny too."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Thank you. Take your time. Is there anything else you've noticed?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "My vision is a bit blurry on the left side. That's all."
+       }
+      ]
+     },
+     {
+      "title": "Collateral history and time last known well",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Grace, were you with David when this started? When was he last completely well, with no symptoms at all?"
+       },
+       {
+        "speaker": "witness",
+        "label": "Wife",
+        "text": "He was normal at 08:30. About ten minutes later his face drooped. I rang 999 at 08:50."
+       },
+       {
+        "speaker": "note",
+        "text": "Last known well: 08:30. This is the key time for treatment decisions."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "That's very helpful. Has anything got better or worse since?"
+       },
+       {
+        "speaker": "witness",
+        "label": "Wife",
+        "text": "His speech is a little worse, I think."
+       }
+      ]
+     },
+     {
+      "title": "Signpost, then focused closed questions",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "I'm going to ask some specific questions now, so short answers are fine. Any headache?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "No."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Any vomiting, double vision, dizziness or problems with balance?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "No double vision. No dizziness."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Any fit, blackout, chest pain or palpitations?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "No."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Any neck pain, or a recent neck injury or fall?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "No."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Have you ever had anything like this before, even a short episode that passed?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Never."
+       }
+      ]
+     },
+     {
+      "title": "Safety screen for reperfusion treatment",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Which medicines do you take?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Aspirin 75, metformin, amlodipine and a statin."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Any other blood thinners, such as warfarin, apixaban, rivaroxaban or edoxaban? Any allergies?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "No blood thinners, only the aspirin. No allergies."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "In the last three months, any surgery, injuries, falls, bleeding, black stools or dental extractions?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "None."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Have you ever had bleeding in the brain, or been told you have an aneurysm?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "No."
+       }
+      ]
+     },
+     {
+      "title": "Background history",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Do you have any medical conditions? Any heart problems, such as an irregular heartbeat?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "High blood pressure and diabetes. Nothing with my heart that I know of."
+       },
+       {
+        "speaker": "witness",
+        "label": "Wife",
+        "text": "He fainted last year. The hospital checked him but found nothing."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Thank you, Grace, that's useful. Does anyone in the family have strokes or heart disease? Do you smoke or drink?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "My father had a stroke at 70. I stopped smoking ten years ago, and I have a few beers at weekends."
+       }
+      ]
+     },
+     {
+      "title": "Premorbid function and social history",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Before this morning, what could you do for yourself day to day? Who is at home with you?"
+       },
+       {
+        "speaker": "witness",
+        "label": "Wife",
+        "text": "Everything. He drives, does the gardening, looks after himself completely."
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Just Grace and me at home."
+       }
+      ]
+     },
+     {
+      "title": "Ideas, concerns and expectations",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "David, what do you think might be happening? What is worrying you most?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "I think it might be a stroke, like my dad. Will I get my arm back? I don't want to be a burden."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "I understand. Grace, is there anything you are worried about?"
+       },
+       {
+        "speaker": "witness",
+        "label": "Wife",
+        "text": "Is he going to die?"
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "I understand why you're frightened. David is stable at the moment, and we are acting quickly, which gives him the best chance. I'll keep you both updated at every step."
+       }
+      ]
+     },
+     {
+      "title": "Summary and initial plan",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Let me summarise, and please correct me. David, you've had sudden left-sided weakness, slurred speech and blurry vision on the left, starting about 08:40. You were last completely well at 08:30. You take aspirin but no other blood thinners, you have high blood pressure and diabetes, and you were fully independent before today. Is that right?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Yes."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "This could be a problem with the blood supply to part of the brain, so I'm arranging an urgent CT scan of your head, a heart tracing and blood tests, and the stroke team is being alerted so they can see you straight away. Do you have any questions?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "No. Thank you, doctor."
+       }
+      ]
+     }
+    ],
+    "witnessLabel": "Wife",
+    "markScheme": [
+     {
+      "domain": "Introduction and consent",
+      "expected": "Introduces self and role, confirms name and DOB, asks who the relative is, gains consent",
+      "max": 2
+     },
+     {
+      "domain": "Open questioning",
+      "expected": "Opens with an open question, listens without interrupting, uses a prompt",
+      "max": 2
+     },
+     {
+      "domain": "Last known well",
+      "expected": "Establishes the time early, from the witness",
+      "max": 2
+     },
+     {
+      "domain": "Signposting",
+      "expected": "Signals the move to closed questions",
+      "max": 1
+     },
+     {
+      "domain": "Symptom screen",
+      "expected": "Face, arm, leg, speech, vision, balance, headache, vomiting, seizure, chest pain, neck pain (8 or more = 3; 5 to 7 = 2; 3 to 4 = 1)",
+      "max": 3
+     },
+     {
+      "domain": "Reperfusion safety screen",
+      "expected": "Anticoagulants and antiplatelets, bleeding, surgery, trauma, previous brain bleed (all = 2; some = 1)",
+      "max": 2
+     },
+     {
+      "domain": "PMH, drugs, allergies, family",
+      "expected": "Vascular risk factors, previous TIA or stroke, full drug list, allergies, family history",
+      "max": 2
+     },
+     {
+      "domain": "Social and function",
+      "expected": "Smoking, alcohol, home, baseline function",
+      "max": 1
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "expected": "Explored for patient and relative",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "expected": "Accurate summary, checks it, states urgent CT and stroke team",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "expected": "Plain language, appropriate pace, acknowledges anxiety",
+      "max": 2
+     }
+    ],
+    "globalRating": [
+     {
+      "grade": "Clear pass",
+      "description": "structured, time-critical, all key points."
+     },
+     {
+      "grade": "Pass",
+      "description": "most points, minor omissions."
+     },
+     {
+      "grade": "Borderline",
+      "description": "key omission (for example no last known well time) or poor communication."
+     },
+     {
+      "grade": "Fail",
+      "description": "disorganised, unsafe omissions or unprofessional."
+     }
+    ],
+    "commonErrors": [
+     "Closed questions only.",
+     "Asking when symptoms were noticed, not when last well.",
+     "Forgetting anticoagulants and bleeding risk.",
+     "Not using the wife's collateral history.",
+     "Naming a firm diagnosis before assessment."
+    ],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, gain consent, start with an open question, listen without interrupting, signpost, summarise, state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Last well 08:30. Left face droop, left arm and leg weakness, slurred speech, blurred left vision. High blood pressure, diabetes, possible irregular heartbeat (fainting last year). Aspirin only, no blood thinners. Fully independent before."
+     },
+     {
+      "task": "Ask",
+      "expected": "Collateral from the wife. Headache, vomiting, fit, blackout, chest pain, neck pain. Previous episodes. Bleeding or surgery in 3 months. Allergies, family history, smoking, alcohol, daily function, worries."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: check glucose, ABCDE, urgent CT head with CT angiogram, ECG, bloods with clotting, IV access, alert the stroke team, monitor, nothing to eat or drink until a swallow check."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, correct mistakes openly, say \"I would ask the stroke consultant\" when unsure, restate the time if anything changes."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Speech gets worse",
+      "response": "Recheck ABCDE and glucose, tell the stroke team now, note the time."
+     },
+     {
+      "situation": "Vomiting or a fit",
+      "response": "Protect the airway, call for help, follow the seizure protocol, repeat glucose."
+     },
+     {
+      "situation": "Wife is tearful",
+      "response": "Pause, acknowledge, offer a seat and a nurse, then carry on."
+     },
+     {
+      "situation": "Patient cannot answer",
+      "response": "Use the wife and short yes or no questions."
+     },
+     {
+      "situation": "Time running out",
+      "response": "Go straight to the safety screen and summary."
+     },
+     {
+      "situation": "Unsure of an examiner question",
+      "response": "Say what you know, name the limit, and say you would ask a senior."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Stroke",
+      "say": "A problem with the blood supply to part of the brain"
+     },
+     {
+      "term": "Clot, infarct",
+      "say": "A blockage in a blood vessel"
+     },
+     {
+      "term": "Haemorrhage",
+      "say": "Bleeding in the brain"
+     },
+     {
+      "term": "TIA",
+      "say": "A mini-stroke, a short warning episode"
+     },
+     {
+      "term": "Dysarthria",
+      "say": "Slurred speech"
+     },
+     {
+      "term": "Dysphasia",
+      "say": "Trouble finding or understanding words"
+     },
+     {
+      "term": "Hemiparesis",
+      "say": "Weakness down one side"
+     },
+     {
+      "term": "Facial droop",
+      "say": "One side of the face drooping"
+     },
+     {
+      "term": "Atrial fibrillation",
+      "say": "An irregular heartbeat"
+     },
+     {
+      "term": "Anticoagulant",
+      "say": "Blood thinner"
+     },
+     {
+      "term": "Hypertension",
+      "say": "High blood pressure"
+     },
+     {
+      "term": "Syncope",
+      "say": "Fainting"
+     },
+     {
+      "term": "CT scan",
+      "say": "A quick scan that takes pictures of the brain"
+     },
+     {
+      "term": "Thrombolysis",
+      "say": "A clot-busting drug through a drip"
+     },
+     {
+      "term": "Thrombectomy",
+      "say": "Removing the clot through a thin tube in an artery"
+     },
+     {
+      "term": "Nil by mouth",
+      "say": "Nothing to eat or drink for now"
+     },
+     {
+      "term": "Stroke mimic",
+      "say": "Something else that can look like a stroke"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Is it a stroke?",
+      "reply": "\"It looks likely from what you describe. The scan will confirm it and show us the best treatment.\""
+     },
+     {
+      "question": "Will I get my arm back?",
+      "reply": "\"I can't promise. The sooner we treat this, the better the chance of recovery, and we are moving as fast as we can.\""
+     },
+     {
+      "question": "Is he going to die?",
+      "reply": "\"He is stable at the moment and we are acting quickly. I'll keep you updated at every step.\""
+     },
+     {
+      "question": "Why did this happen?",
+      "reply": "\"High blood pressure, diabetes and an irregular heartbeat can all cause it. Tests will tell us more.\""
+     },
+     {
+      "question": "Is the treatment risky?",
+      "reply": "\"A small number of people get bleeding in the brain. Without treatment the outlook is usually worse. The stroke team will go through it with you.\""
+     },
+     {
+      "question": "Why can't he eat or drink?",
+      "reply": "\"Swallowing can be affected, and food could go down the wrong way. We'll check it first.\""
+     },
+     {
+      "question": "Can I drive?",
+      "reply": "\"Not for now. The stroke team will advise when it is safe, and there are driving rules we'll go through.\""
+     },
+     {
+      "question": "Can I stay with him?",
+      "reply": "\"Yes, for now. A nurse will look after you and update you.\""
+     }
+    ],
+    "howToAnswer": [
+     "Say your priority first: \"My immediate priority is...\"",
+     "Use a structure (ABCDE, then investigations, then treatment).",
+     "Give times and numbers: 4.5 hours for thrombolysis, last known well, BP under 185/110.",
+     "Link the answer back to this patient.",
+     "If unsure, say what you know and that you would ask the stroke consultant.",
+     "Keep to the time; stop when the examiner moves on."
+    ],
+    "redFlags": [
+     "No last known well time.",
+     "Giving thrombolysis before a CT.",
+     "Skipping glucose or the blood thinner question.",
+     "False reassurance or firm promises.",
+     "Jargon without explanation, or interrupting the patient.",
+     "No summary or plan."
+    ],
+    "questions": [
+     {
+      "question": "Immediate actions and investigations?",
+      "answer": "- ABCDE, oxygen only if hypoxic.\n- Capillary glucose to exclude hypoglycaemia.\n- FAST and NIHSS, then alert the stroke team.\n- Urgent non-contrast CT head; CT angiography if thrombectomy is considered.\n- 12-lead ECG for atrial fibrillation; bloods including clotting and group and save; IV access.\n- Monitor BP, heart rate, saturations and temperature."
+     },
+     {
+      "question": "What time windows apply to reperfusion?",
+      "answer": "- Thrombolysis (alteplase or tenecteplase per local protocol): within 4.5 hours of onset, once haemorrhage is excluded.\n- Thrombectomy for a large vessel occlusion: generally within 6 hours; selected patients up to 24 hours from last known well, guided by advanced imaging.\n- Use the last known well time, not the time symptoms were noticed.\n- BP below 185/110 before thrombolysis and below 180/105 after."
+     },
+     {
+      "question": "Contraindications and cautions for thrombolysis?",
+      "answer": "- Intracranial haemorrhage on CT, previous brain bleed, suspected subarachnoid haemorrhage.\n- Recent major surgery or trauma, active internal bleeding, coagulopathy.\n- Therapeutic anticoagulation (recent DOAC, raised INR on warfarin).\n- Uncontrolled hypertension, glucose outside the safe range, recent stroke or head injury.\n- Others per local protocol."
+     },
+     {
+      "question": "Common stroke mimics?",
+      "answer": "- Hypoglycaemia (check glucose first), seizure with Todd's paresis, migraine with aura.\n- Sepsis or delirium, syncope, Bell's palsy, functional neurological disorder.\n- Old stroke deficits worsening during infection."
+     },
+     {
+      "question": "A TIA with fully resolved symptoms: management?",
+      "answer": "- Aspirin 300 mg immediately once haemorrhage is not suspected.\n- Specialist assessment within 24 hours.\n- ECG, bloods, glucose, brain and vascular imaging as indicated.\n- Secondary prevention (statin, BP control, smoking cessation, antithrombotic therapy) and driving advice."
+     }
+    ],
+    "teachingPoints": [
+     "**Time is brain.** Last known well is the most important question.",
+     "**Open first, then closed.** The funnel captures the patient's story, then fills gaps safely.",
+     "**Collateral history** is essential when speech or comprehension is affected.",
+     "**Check glucose** in every suspected stroke.",
+     "**Never skip the safety screen** for anticoagulants and bleeding risk.",
+     "**Premorbid function** guides treatment decisions and prognosis.",
+     "Be honest about uncertainty when counselling an anxious patient and relative."
+    ],
+    "resources": [
+     {
+      "label": "NICE guideline NG128: Stroke and transient ischaemic attack in over 16s."
+     },
+     {
+      "label": "Royal College of Physicians: National Clinical Guideline for Stroke for the UK and Ireland."
+     },
+     {
+      "label": "Royal College of Emergency Medicine: current clinical guidance on stroke and TIA."
+     },
+     {
+      "label": "Stroke Association patient information."
+     }
+    ]
+   }
+  },
+  {
+   "slug": "subarachnoid-haemorrhage",
+   "title": "Subarachnoid haemorrhage",
+   "group": "Stroke and vascular",
+   "category": "Stroke and vascular",
+   "summary": "Explore a sudden severe headache and examiner expectations.",
+   "imageUrl": "/brand/t2.jpg",
+   "status": "published",
+   "featured": true,
+   "showOnHome": true,
+   "sortOrder": 1,
+   "content": {
+    "aim": "Assess history taking in a sudden severe headache, recognising subarachnoid haemorrhage through the time-critical, red-flag approach.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Ms Sarah Khan, 38, has come in with a sudden severe headache. Observations: BP 158/94, HR 96, temperature 36.9, GCS 15. Take a focused history. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Witness",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Onset 14:10 at the gym: sudden, at its worst within a minute, worst headache of her life, back of the head.",
+       "Vomited twice, neck stiff and sore, light hurts. Felt woozy, no clear blackout, no fit.",
+       "No head injury, fever or rash. No weakness, speech or vision change.",
+       "No similar headaches before; occasional mild migraine.",
+       "High blood pressure on ramipril. Smokes 15 a day. No blood thinners, no cocaine, no allergies.",
+       "Mother died suddenly at 52 (\"something in her head\"); an uncle had polycystic kidney disease.",
+       "Concern if asked: \"Is it a bleed like my mum? Am I going to die?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Sarah Khan, 3rd May 1988."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I was at the gym and got a sudden terrible headache at the back of my head. It is the worst I have ever had."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else you have noticed?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I have been sick twice, my neck is stiff and the light hurts my eyes."
+       }
+      ]
+     },
+     {
+      "title": "Onset and time",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "I am going to ask some specific questions now. Exactly what time did it start, and how quickly did it become severe?"
+       },
+       {
+        "speaker": "patient",
+        "text": "About ten past two. It was at its worst within a minute, like being hit."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Did you black out, have a fit, or feel faint?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I felt woozy but did not black out. No fit."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any head injury, fever or rash?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No, none of those."
+       }
+      ]
+     },
+     {
+      "title": "Neurological and red flags",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any weakness, numbness, speech or vision problems, or double vision?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No, only light bothers me."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Have you had headaches like this before?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Never like this. I get mild migraines sometimes."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Do you take blood thinners, or use cocaine or other drugs?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No to both."
+       }
+      ]
+     },
+     {
+      "title": "Background and family",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Do you have any medical conditions, take regular medicines, or have allergies?"
+       },
+       {
+        "speaker": "patient",
+        "text": "High blood pressure, ramipril. No allergies."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Does anyone in your family have bleeds in the brain, aneurysms or kidney problems? Do you smoke?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My mum died suddenly at 52, they said something in her head. My uncle had polycystic kidney disease. I smoke fifteen a day."
+       }
+      ]
+     },
+     {
+      "title": "Ideas, concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What do you think might be going on, and what worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Is it a bleed like my mum? Am I going to die?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "That is an understandable fear. I will be honest: this could be bleeding around the brain, and it needs urgent tests. We are acting quickly. To summarise, you had a sudden severe headache that peaked within a minute at 14:10, with vomiting, a stiff neck and light sensitivity, you have high blood pressure and smoke, and your mother died suddenly. I am arranging an urgent CT scan of your head, bloods and a heart tracing, and I will speak to the senior doctor and the neurosurgical team. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Thunderclap headache peaking within a minute at 14:10 on exertion, vomiting, neck stiffness, photophobia, brief wooziness, hypertension, smoker, family history of sudden death and polycystic kidney disease, no blood thinners."
+     },
+     {
+      "task": "Ask",
+      "expected": "Exact onset time and speed, collapse, fit, head injury, fever, rash, neurological symptoms, previous headaches, blood thinners, cocaine, hypertension, smoking, family history."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, glucose, urgent CT head, bloods, ECG, neurological observations, analgesia and antiemetic, senior and neurosurgical discussion, lumbar puncture or CT angiography per pathway if CT negative."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient becomes drowsy",
+      "response": "Recheck ABCDE and GCS, call the senior and critical care, repeat glucose, tell the neurosurgical team."
+     },
+     {
+      "situation": "Patient vomits and has a fit",
+      "response": "Protect the airway, call for help, follow the seizure protocol, arrange urgent CT."
+     },
+     {
+      "situation": "Patient is frightened of dying",
+      "response": "Acknowledge the fear, be honest, explain what happens next."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Subarachnoid haemorrhage",
+      "say": "Bleeding in the space around the brain"
+     },
+     {
+      "term": "Aneurysm",
+      "say": "A weak, ballooned part of a blood vessel"
+     },
+     {
+      "term": "Thunderclap headache",
+      "say": "A sudden, extremely severe headache"
+     },
+     {
+      "term": "Photophobia",
+      "say": "Light hurting the eyes"
+     },
+     {
+      "term": "CT scan",
+      "say": "A quick scan that takes pictures of the brain"
+     },
+     {
+      "term": "Lumbar puncture",
+      "say": "A needle test in the lower back to take fluid"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Is it a bleed?",
+      "reply": "\"It could be. The scan will show us quickly.\""
+     },
+     {
+      "question": "Am I going to die?",
+      "reply": "\"This can be serious, and we are acting fast, which gives you the best chance.\""
+     },
+     {
+      "question": "Do I need surgery?",
+      "reply": "\"If it is a bleed from a weak vessel, a specialist team may treat it with a procedure or an operation.\""
+     },
+     {
+      "question": "Could my family be affected?",
+      "reply": "\"Some causes run in families. The specialist team will advise you later.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Not asking exactly when and how fast it began.",
+     "Calling it migraine without excluding red flags.",
+     "No CT, or no senior and neurosurgical escalation.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions and investigations?",
+      "answer": "- ABCDE, glucose, IV access, bloods, ECG, regular GCS and neurological observations.\n- Urgent non-contrast CT head, most sensitive within 6 hours of onset.\n- If CT is negative and more than 6 hours from onset, follow the local pathway: lumbar puncture (at least 12 hours after onset, for xanthochromia) or CT angiography.\n- Early senior and neurosurgical discussion, analgesia and antiemetic, nil by mouth."
+     },
+     {
+      "question": "What are the causes and risk factors?",
+      "answer": "- Ruptured berry aneurysm is the commonest cause.\n- Risk factors: smoking, hypertension, family history, polycystic kidney disease, heavy alcohol, cocaine.\n- Other causes: arteriovenous malformation, trauma."
+     },
+     {
+      "question": "Which headache features are red flags?",
+      "answer": "- Thunderclap onset, exertional onset, neck stiffness, vomiting, collapse or seizure.\n- Focal neurology, reduced GCS, fever with rash, new headache over 50, papilloedema."
+     },
+     {
+      "question": "What are the main complications and treatments?",
+      "answer": "- Rebleeding, hydrocephalus, vasospasm with delayed ischaemia, seizures, hyponatraemia.\n- Nimodipine for confirmed SAH, BP control as advised by neurosurgery, and aneurysm securing by coiling or clipping."
+     }
+    ],
+    "teachingPoints": [
+     "Ask exactly how fast the headache peaked.",
+     "Thunderclap onset is subarachnoid haemorrhage until proven otherwise.",
+     "CT head is most sensitive early, so time matters.",
+     "Do not label migraine without excluding red flags."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "cauda-equina",
+   "title": "Cauda equina syndrome",
+   "group": "Weakness and spinal",
+   "category": "Weakness and spinal",
+   "summary": "A sensitive red-flag history with a clear emergency plan.",
+   "imageUrl": "/brand/t3.jpg",
+   "status": "published",
+   "featured": true,
+   "showOnHome": true,
+   "sortOrder": 2,
+   "content": {
+    "aim": "Assess a sensitive, focused history in a patient with back pain and possible cauda equina syndrome, a surgical emergency where speed protects bladder, bowel and sexual function.",
+    "learningOutcomes": [
+     "Open with an open question, then use focused closed questions.",
+     "Ask about saddle numbness, bladder, bowel and sexual function, sensitively and in private.",
+     "Cover leg symptoms and other red flags.",
+     "Explain the urgency in plain language and state a plan: urgent MRI and early spinal team involvement."
+    ],
+    "instructions": "You are the emergency department doctor. Mr Daniel Reid, 42, has come to the department with back pain. Observations are normal. Take a focused history. **Do not examine.** At the end, summarise and state your initial plan.",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Patient, Mr Daniel Reid",
+      "notes": [
+       "**Manner:** worried, a little embarrassed about bladder and bowel questions.",
+       "**After an open question:** \"I hurt my back lifting boxes five days ago. Now it's down both legs, and I'm struggling to pass water.\" After \"anything else?\": \"My right foot keeps catching, and I feel numb in a weird place.\""
+      ],
+      "items": [
+       "Back pain from lifting five days ago. Pain down both legs for two days, right worse. Right foot catching, no falls.",
+       "Since yesterday: numb around the back passage and inner thighs, can't feel toilet paper properly.",
+       "Bladder: hard to start, does not feel when full, dribbled this morning.",
+       "Bowels: constipated, did not feel the stool pass. Erections harder since yesterday (only if asked sensitively).",
+       "No fever, weight loss, cancer, IV drug use, recent infection or procedure, steroids or blood thinners. Only the lifting injury.",
+       "PMH: earlier back pain episodes, nothing serious. Takes ibuprofen and codeine. No allergies. Smokes 10 a day. Warehouse worker, lives with his partner.",
+       "Concerns (if asked): \"Will I be paralysed? Will I work again? I can't cope with being incontinent.\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction, consent and privacy",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Hello, I'm Dr Shah, one of the emergency doctors. Can you confirm your full name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Daniel Reid, 12th June 1984."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Thank you. I'll need to ask some personal questions about your bladder and bowels. Are you comfortable here, or would you like more privacy or a chaperone?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Here is fine."
+       }
+      ]
+     },
+     {
+      "title": "Open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "I hurt my back lifting boxes five days ago. Now it's down both legs, and I'm struggling to pass water."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Thank you. Is there anything else you've noticed?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "My right foot keeps catching, and I feel numb in a weird place."
+       }
+      ]
+     },
+     {
+      "title": "Saddle numbness",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "I'm going to ask some specific questions now. Where exactly is the numbness? Is it around your back passage, genitals or inner thighs, the area that would touch a saddle?"
+       },
+       {
+        "speaker": "note",
+        "text": "Key finding: saddle numbness since yesterday."
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Yes, since yesterday. When I wipe, I can't feel it properly."
+       }
+      ]
+     },
+     {
+      "title": "Bladder, bowel and sexual function",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Is it hard to start passing urine? Can you feel when your bladder is full? Any leaking?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Hard to start, I don't feel it's full, and I dribbled this morning."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "What about your bowels?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Constipated, and I didn't feel it when I went."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "This next question is sensitive, but important. Any change in erections or sexual function?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Yes, harder since yesterday."
+       }
+      ]
+     },
+     {
+      "title": "Legs and other red flags",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Is the leg pain in one leg or both? Any weakness, numbness or falls?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Both, the right is worse. My foot catches. No falls."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Any fever, weight loss, history of cancer, injecting drugs, recent infection or procedure, steroids or blood thinners?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "None of those."
+       }
+      ]
+     },
+     {
+      "title": "Background and social",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Have you had back problems before? What medicines do you take? Any allergies? What do you do for work, and who is at home?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Some back aches before, nothing serious. Ibuprofen and codeine, no allergies. I work in a warehouse and live with my partner. I smoke ten a day."
+       }
+      ]
+     },
+     {
+      "title": "Ideas, concerns and expectations",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "What is worrying you most?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Will I be paralysed? Will I work again? I can't cope with being incontinent."
+       },
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Those are understandable worries. This is why we are acting quickly, because treating pressure on the nerves early gives the best chance of recovery."
+       }
+      ]
+     },
+     {
+      "title": "Summary and plan",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "label": "Doctor",
+        "text": "Let me summarise. Daniel, you hurt your back five days ago, and now have pain down both legs, a right foot that catches, numbness around your back passage, trouble passing urine, reduced bowel sensation and a change in sexual function. I'm worried this could be pressure on the bundle of nerves at the bottom of the spine, called cauda equina syndrome. It is an emergency. I'm arranging a bladder scan and an urgent MRI of your spine, and calling the spinal team now. I'll also examine you, including checking feeling and muscle tone around the back passage, with a chaperone. Is that alright?"
+       },
+       {
+        "speaker": "patient",
+        "label": "Patient",
+        "text": "Yes. Thank you."
+       }
+      ]
+     }
+    ],
+    "witnessLabel": "Witness",
+    "markScheme": [
+     {
+      "domain": "Introduction, consent, privacy and chaperone offer",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Saddle numbness asked and located",
+      "max": 2
+     },
+     {
+      "domain": "Bladder symptoms",
+      "max": 2
+     },
+     {
+      "domain": "Bowel and sexual function, asked sensitively",
+      "max": 2
+     },
+     {
+      "domain": "Leg pain, weakness and numbness",
+      "max": 2
+     },
+     {
+      "domain": "Other red flags",
+      "max": 2
+     },
+     {
+      "domain": "PMH, drugs, allergies, social and work",
+      "max": 1
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and sensitivity",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, offer privacy and a chaperone, start with an open question, ask sensitive questions kindly, signpost, summarise, state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Five days of back pain after lifting, now bilateral leg pain (right worse), right foot catching, saddle numbness since yesterday, hesitancy and reduced bladder sensation, reduced bowel sensation, new sexual dysfunction, no other red flags."
+     },
+     {
+      "task": "Ask",
+      "expected": "Saddle sensation, bladder, bowel and sexual function, leg weakness, fever, cancer, injecting drug use, trauma, steroids, blood thinners, previous back problems, work and home, worries."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: urgent senior and spinal team review, examination with chaperone including anal tone, bladder scan, emergency MRI spine, bloods, analgesia, baseline neurology, nil by mouth."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge embarrassment and fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient is embarrassed",
+      "response": "Pause, normalise the questions, offer privacy again, then continue."
+     },
+     {
+      "situation": "Patient asks to go home",
+      "response": "Explain the risk clearly, say you want him to stay for urgent scans, involve the senior."
+     },
+     {
+      "situation": "Leg weakness gets worse",
+      "response": "Tell the spinal team now, repeat the neurological check, note the time."
+     },
+     {
+      "situation": "Patient cannot feel his bladder",
+      "response": "Arrange a bladder scan without delay."
+     },
+     {
+      "situation": "Time running out",
+      "response": "Go straight to red flags and the summary with a plan."
+     },
+     {
+      "situation": "Unsure of an examiner question",
+      "response": "Say what you know, name the limit, and say you would ask a senior."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Cauda equina",
+      "say": "The bundle of nerves at the bottom of the spinal canal"
+     },
+     {
+      "term": "Saddle anaesthesia",
+      "say": "Numbness around the back passage, genitals and inner thighs, where a saddle would touch"
+     },
+     {
+      "term": "Urinary retention",
+      "say": "Not being able to empty your bladder"
+     },
+     {
+      "term": "Radiculopathy",
+      "say": "Nerve pain shooting down the leg"
+     },
+     {
+      "term": "Foot drop",
+      "say": "Your foot catching or dragging"
+     },
+     {
+      "term": "MRI",
+      "say": "A detailed scan with a magnet, no radiation"
+     },
+     {
+      "term": "Bladder scan",
+      "say": "A painless scan to see how much urine is in the bladder"
+     },
+     {
+      "term": "Catheter",
+      "say": "A thin tube to drain the bladder"
+     },
+     {
+      "term": "Decompression",
+      "say": "An operation to take pressure off the nerves"
+     },
+     {
+      "term": "Erectile dysfunction",
+      "say": "Changes in erections or sexual function"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Will I be paralysed?",
+      "reply": "\"I cannot promise, but this is exactly why we are acting so fast. Relieving pressure on the nerves early gives the best chance.\""
+     },
+     {
+      "question": "Will my bladder recover?",
+      "reply": "\"It depends on how long the nerves have been squeezed and how quickly we relieve it. That is why speed matters.\""
+     },
+     {
+      "question": "Do I need an operation?",
+      "reply": "\"Possibly. The scan will show. If a disc is pressing on the nerves, urgent surgery is often needed.\""
+     },
+     {
+      "question": "Can I go home with painkillers?",
+      "reply": "\"I am worried about you, so I want you to stay for an urgent scan and the spinal team.\""
+     },
+     {
+      "question": "Why the back passage examination?",
+      "reply": "\"It checks the nerves there. A chaperone will be present, and you can ask me to stop at any time.\""
+     },
+     {
+      "question": "Will I work again?",
+      "reply": "\"Let us focus on treatment first. We will talk about recovery and work afterwards.\""
+     }
+    ],
+    "howToAnswer": [
+     "Say your priority first.",
+     "Use a structure: examine, investigate, escalate.",
+     "Link answers to this patient.",
+     "If unsure, say so and say you would ask a senior."
+    ],
+    "redFlags": [
+     "Not asking about saddle numbness or bladder and bowel function.",
+     "No privacy or sensitivity.",
+     "Reassuring and discharging on painkillers.",
+     "No escalation or MRI plan.",
+     "Jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions and investigations?",
+      "answer": "- Recognise a surgical emergency and escalate early to the senior and the on-call spinal or neurosurgical team.\n- Examine: leg power, tone, reflexes, sensation, saddle sensation, and with a chaperone anal tone and sensation.\n- Bladder scan for post-void residual volume.\n- Emergency MRI of the spine.\n- Bloods, analgesia, document a baseline neurological state, repeat observations, nil by mouth in case of surgery."
+     },
+     {
+      "question": "What are the common causes?",
+      "answer": "- Large central lumbar disc prolapse (most common).\n- Spinal stenosis.\n- Tumour or metastases.\n- Epidural abscess or haematoma.\n- Trauma or fracture."
+     },
+     {
+      "question": "Which back pain red flags need urgent action?",
+      "answer": "- Saddle numbness, new bladder or bowel dysfunction, sexual dysfunction, bilateral or progressive leg weakness: emergency.\n- Also needing prompt work-up: cancer history, fever, injecting drug use, steroids, trauma, age under 20 or over 50, weight loss, night pain."
+     },
+     {
+      "question": "What is the difference between incomplete and retention types?",
+      "answer": "- Incomplete: altered urinary sensation or stream, may still pass urine.\n- Retention: painless urinary retention with overflow, with a worse outlook.\n- Both are urgent. The aim is to decompress before retention develops."
+     },
+     {
+      "question": "Why does timing matter?",
+      "answer": "- Recovery of bladder, bowel and sexual function depends on how early pressure is relieved.\n- Delay risks permanent deficits, so MRI and surgery should happen as soon as possible, following the local spinal pathway."
+     }
+    ],
+    "teachingPoints": [
+     "**Ask about saddle numbness and bladder and bowel function** in every back pain history.",
+     "Create privacy and ask sensitively.",
+     "Early symptoms can be subtle: altered sensation, hesitancy, not just retention.",
+     "It is an emergency: early MRI and spinal team.",
+     "Never reassure falsely or discharge on painkillers when red flags are present.",
+     "Document a clear neurological baseline."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "first-seizure",
+   "title": "First seizure",
+   "group": "Seizures",
+   "category": "Seizures",
+   "summary": "Explore a first seizure, witness history and immediate priorities.",
+   "imageUrl": "/brand/t4.jpg",
+   "status": "published",
+   "featured": true,
+   "showOnHome": true,
+   "sortOrder": 3,
+   "content": {
+    "aim": "Assess history taking after a first seizure, using a witness account to separate seizure from syncope and other mimics, and giving safe advice.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mr Tom Walker, 24, was brought in by ambulance after a collapse at work. He is now alert, observations are normal and glucose is 5.9. His colleague Anna saw the event and is with him. Take a focused history from both. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Colleague",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Tom: felt odd (rising feeling in the stomach, strange smell), then woke on the floor with a sore tongue and wet trousers. Headache and aching since.",
+       "Anna: he went stiff, then jerked all over for about two minutes, eyes open, lips blue, did not respond. Bit the side of his tongue. Confused for about 20 minutes. Did not hit his head hard.",
+       "No fever or neck stiffness. Three hours of sleep and heavy drinking the night before.",
+       "No previous seizures, jerks or blank spells. No drugs, medicines or allergies. No family history.",
+       "Office worker, lives with flatmates, drives to work, plays football.",
+       "Concern if asked: \"Do I have epilepsy? Can I still drive? Will it happen again?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Tom Walker, 9th March 2002."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what happened today, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I remember feeling odd, then waking on the floor. My tongue is sore and I am wet."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My head aches and I am achy all over."
+       }
+      ]
+     },
+     {
+      "title": "Witness account",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Anna, you saw it. Can you describe what happened from the start?"
+       },
+       {
+        "speaker": "witness",
+        "text": "He went stiff, then jerked all over for about two minutes. His lips went blue and he did not respond. He bit his tongue."
+       },
+       {
+        "speaker": "doctor",
+        "text": "How long was he confused afterwards? Did he injure himself when he fell?"
+       },
+       {
+        "speaker": "witness",
+        "text": "About twenty minutes. He did not hit his head hard."
+       }
+      ]
+     },
+     {
+      "title": "Before, triggers and mimics",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Tom, what did you feel just before? Any sweating, dizziness or palpitations on standing?"
+       },
+       {
+        "speaker": "patient",
+        "text": "A rising feeling in my stomach and a strange smell. No palpitations."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any head injury, fever, drugs or alcohol, and how did you sleep?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Three hours of sleep, and I drank a lot last night."
+       }
+      ]
+     },
+     {
+      "title": "Past, drugs and family",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any earlier episodes, jerks or blank spells? Medical conditions, medicines, allergies, or family history of epilepsy?"
+       },
+       {
+        "speaker": "patient",
+        "text": "None of those."
+       }
+      ]
+     },
+     {
+      "title": "Concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Do you drive? What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I drive to work. Do I have epilepsy? Will it happen again?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "Those are fair questions. One seizure does not always mean epilepsy, and a specialist clinic will assess you. To summarise, you had a witnessed generalised seizure lasting two minutes, with a warning sensation, tongue biting and twenty minutes of confusion, after poor sleep and heavy drinking, and your glucose is normal. I will arrange bloods and a heart tracing, refer you urgently to the first seizure clinic, and go through safety advice, including driving. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thanks."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Witnessed two-minute generalised tonic-clonic seizure with aura (rising feeling, smell), lateral tongue bite, incontinence, 20 minutes of confusion, sleep deprivation and alcohol, no previous episodes, glucose normal."
+     },
+     {
+      "task": "Ask",
+      "expected": "Witness account, aura, duration, tongue bite, incontinence, recovery, head injury, fever, alcohol and drugs, sleep, previous episodes, family history, driving, work."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, glucose, bloods, ECG, consider CT head, first seizure clinic referral, written safety and driving advice, no routine antiepileptic from the ED."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient seizes again",
+      "response": "Protect from injury, time it, airway and oxygen, call for help, give a first-line benzodiazepine if beyond five minutes per protocol."
+     },
+     {
+      "situation": "Patient is tearful about driving",
+      "response": "Acknowledge the loss of independence, give clear written advice, explain the specialist will review."
+     },
+     {
+      "situation": "Witness is distressed",
+      "response": "Thank her, reassure that she acted correctly, give simple seizure first aid advice."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Seizure or fit",
+      "say": "A sudden burst of abnormal electrical activity in the brain"
+     },
+     {
+      "term": "Tonic-clonic",
+      "say": "Stiffening followed by jerking"
+     },
+     {
+      "term": "Aura",
+      "say": "A warning feeling before it starts"
+     },
+     {
+      "term": "Post-ictal",
+      "say": "The confused, tired phase after a fit"
+     },
+     {
+      "term": "Epilepsy",
+      "say": "A tendency to have repeated seizures"
+     },
+     {
+      "term": "EEG",
+      "say": "A painless test that records electrical activity of the brain"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Do I have epilepsy?",
+      "reply": "\"One seizure does not always mean epilepsy. The specialist clinic will assess you and decide.\""
+     },
+     {
+      "question": "Can I drive?",
+      "reply": "\"Not for now. You must not drive and need to tell the DVLA. The clinic will advise when it is safe.\""
+     },
+     {
+      "question": "Will it happen again?",
+      "reply": "\"It might. Avoiding sleep loss and heavy alcohol helps, and the clinic will talk about your risk.\""
+     },
+     {
+      "question": "Do I need tablets?",
+      "reply": "\"Not usually after a first seizure. The specialist will decide after assessment.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Missing the witness account or not separating seizure from syncope.",
+     "Not checking glucose.",
+     "No driving or safety advice, or no follow-up referral.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions and investigations?",
+      "answer": "- ABCDE and glucose (done).\n- Bloods including electrolytes, calcium and magnesium, and ECG to exclude cardiac syncope.\n- Pregnancy test where relevant.\n- CT head if head injury, persistent deficit or other red flags."
+     },
+     {
+      "question": "How do you tell seizure from syncope?",
+      "answer": "- Seizure: aura, longer tonic-clonic movements, lateral tongue bite, incontinence, prolonged confusion, slow recovery.\n- Syncope: prodrome (sweating, tunnel vision), triggers such as standing, brief jerks, rapid recovery, pallor."
+     },
+     {
+      "question": "What advice do you give at discharge?",
+      "answer": "- Do not drive and tell the DVLA.\n- Avoid heights, swimming alone and baths; shower instead.\n- Avoid heavy alcohol and sleep loss.\n- Urgent first seizure clinic referral. Antiepileptic drugs are not routinely started from the ED after a first unprovoked seizure.\n- Give written advice and seizure first aid guidance to those at home."
+     },
+     {
+      "question": "What are common provoked causes?",
+      "answer": "- Hypoglycaemia, alcohol intoxication or withdrawal, drugs.\n- Electrolyte disturbance, infection (meningitis, encephalitis), head injury, stroke, eclampsia."
+     }
+    ],
+    "teachingPoints": [
+     "A witness account is the most useful part of a first seizure history.",
+     "Check glucose and look for provoked causes.",
+     "Always give driving and safety advice.",
+     "Do not routinely start antiepileptic drugs from the ED after a first unprovoked seizure."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "meningitis",
+   "title": "Meningitis",
+   "group": "CNS infection",
+   "category": "CNS infection",
+   "summary": "Practise a focused history in a time-critical presentation.",
+   "imageUrl": "/brand/t5.jpg",
+   "status": "published",
+   "featured": true,
+   "showOnHome": true,
+   "sortOrder": 4,
+   "content": {
+    "aim": "Assess history taking in suspected meningitis in a young adult, recognising sepsis and the need for immediate antibiotics, and the public health aspects.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Ms Priya Nair, 19, a first-year student, has arrived with her friend Maya. Observations: temperature 38.9, HR 118, BP 100/60, RR 22, GCS 14. Take a focused history from both. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Friend",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Priya: headache since last night, now severe, light hurts, neck stiff, hot and shivery, vomited twice, very tired.",
+       "Maya: Priya was well until two days ago, worse overnight, drowsy and a bit confused this morning. A few small purple spots on her legs appeared an hour ago.",
+       "No head injury, ear or sinus infection, recent travel or seizure.",
+       "Lives in university halls, went to a freshers party last weekend, shares a kitchen. Unsure about meningitis vaccines.",
+       "No medical conditions, medicines, allergies or immunosuppression.",
+       "Concern if asked: \"Is it meningitis? Am I going to die? Could I have given it to my friends?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Priya Nair, 14th January 2007."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "A bad headache since last night. I feel hot and shivery, and light hurts my eyes."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My neck is stiff and I have been sick twice."
+       }
+      ]
+     },
+     {
+      "title": "Time course and symptoms",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Maya, when was Priya last completely well?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Two days ago she was fine. Last night she got a bad headache and fever, and this morning she was drowsy and confused."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any rash?"
+       },
+       {
+        "speaker": "witness",
+        "text": "A few small purple spots on her legs, starting an hour ago."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Priya, any fits, or a head injury?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No fits, no head injury."
+       }
+      ]
+     },
+     {
+      "title": "Risk factors and contacts",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any ear or sinus infection, travel, or contact with someone with meningitis? Where do you live?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I live in halls, and there was a big party last weekend."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Have you had the meningitis vaccines? Any conditions, medicines or allergies?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I am not sure about the vaccines. No conditions, no medicines, no allergies."
+       }
+      ]
+     },
+     {
+      "title": "Ideas, concerns and plan",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Is it meningitis? Am I going to die? Could I have given it to my friends?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "I understand. This could be meningitis or blood poisoning, and we treat it as an emergency. To summarise, you have had fever, severe headache, a stiff neck, light sensitivity, vomiting and drowsiness since last night, with a new purple rash, and you live in halls. I am giving you antibiotics through a drip straight away, taking blood tests and giving fluids, and the senior doctor will see you now. A scan or a back needle test may follow. We will also tell public health, who will look after your close contacts. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No, please hurry."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Fever, severe headache, neck stiffness, photophobia, vomiting and drowsiness since last night, new non-blanching purple spots, university halls and recent party, unsure of vaccination, not immunosuppressed."
+     },
+     {
+      "task": "Ask",
+      "expected": "Time course, rash, neck stiffness, photophobia, confusion, fits, head injury, ear or sinus infection, travel, contacts, vaccination, immunosuppression, medicines, allergies."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: sepsis pathway, blood cultures, immediate IV ceftriaxone, fluids, glucose, lactate, senior and critical care review, CT before LP only if indicated, notify public health."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient becomes drowsier",
+      "response": "Recheck ABCDE and GCS, call critical care, do not delay antibiotics."
+     },
+     {
+      "situation": "Friend is worried about spreading it",
+      "response": "Reassure, explain public health will advise close contacts about preventive antibiotics."
+     },
+     {
+      "situation": "Asked to wait for the scan first",
+      "response": "Explain that antibiotics come first and the scan follows if needed."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Meningitis",
+      "say": "Infection of the lining around the brain and spinal cord"
+     },
+     {
+      "term": "Septicaemia",
+      "say": "Infection in the blood"
+     },
+     {
+      "term": "Photophobia",
+      "say": "Light hurting the eyes"
+     },
+     {
+      "term": "Non-blanching rash",
+      "say": "Spots that do not fade when pressed"
+     },
+     {
+      "term": "Lumbar puncture",
+      "say": "A needle test in the lower back to take fluid"
+     },
+     {
+      "term": "Prophylaxis",
+      "say": "Preventive antibiotics for close contacts"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Is it meningitis?",
+      "reply": "\"It could be. We are treating you straight away without waiting for tests.\""
+     },
+     {
+      "question": "Am I going to die?",
+      "reply": "\"This is serious, and we are acting very quickly, which gives you the best chance.\""
+     },
+     {
+      "question": "Could I have infected my friends?",
+      "reply": "\"Public health will contact close contacts and give preventive advice.\""
+     },
+     {
+      "question": "Why antibiotics before the scan?",
+      "reply": "\"Every hour counts. The scan will not change what we give first.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Delaying antibiotics for a scan or lumbar puncture.",
+     "Missing the rash, or not asking about vaccination and contacts.",
+     "No senior escalation or sepsis plan.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- Sepsis approach: oxygen, IV access, blood cultures, lactate, glucose, fluids.\n- Immediate IV ceftriaxone. Do not delay for CT or lumbar puncture.\n- Dexamethasone per local guidance, early senior and critical care review, consider aciclovir if encephalitis is possible."
+     },
+     {
+      "question": "When must you scan before a lumbar puncture?",
+      "answer": "- Reduced GCS, focal neurology, new seizures, papilloedema, immunocompromise, or signs of raised intracranial pressure.\n- Never delay antibiotics. Send blood PCR, and perform the LP when safe."
+     },
+     {
+      "question": "What does the non-blanching rash suggest?",
+      "answer": "- Meningococcal septicaemia: an emergency.\n- Give antibiotics immediately and call for senior help. Use the glass test."
+     },
+     {
+      "question": "What public health steps are needed?",
+      "answer": "- Notify the local health protection team.\n- Close contacts may need preventive antibiotics and vaccination advice.\n- Droplet precautions until 24 hours of effective treatment."
+     }
+    ],
+    "teachingPoints": [
+     "Antibiotics first, tests second.",
+     "Look for a non-blanching rash.",
+     "Ask about vaccination, living situation and contacts.",
+     "Notify public health."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "giant-cell-arteritis",
+   "title": "Giant cell arteritis",
+   "group": "Headache",
+   "category": "Headache",
+   "summary": "Assess history taking in a new headache in an older patient, recognising giant cell arteritis as a sight-threatening emergency that needs urgent treatment.",
+   "imageUrl": "/brand/t6.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 5,
+   "content": {
+    "aim": "Assess history taking in a new headache in an older patient, recognising giant cell arteritis as a sight-threatening emergency that needs urgent treatment.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mrs Margaret Hughes, 72, has a three-week headache and new blurred vision in her right eye. Observations: temperature 37.8, BP 148/86, HR 84. Take a focused history. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Witness",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Three weeks of right temple headache, throbbing, worse at night. Scalp tender when brushing her hair.",
+       "Jaw aches and tires when chewing, easing with rest. Right eye went black for a minute last week; this morning it is blurred.",
+       "Tired, lost 3 kg, night sweats, low-grade fevers. Shoulders and hips stiff for an hour in the morning.",
+       "No double vision, weakness, speech problems, head injury or neck pain.",
+       "Hypertension on amlodipine. No steroids or blood thinners. Non-smoker. No allergies. Lives with her husband, independent.",
+       "Concern if asked: \"Will I go blind? Do I need to stay in hospital?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Margaret Hughes, 2nd February 1954."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I have had a headache on the right side for about three weeks, and this morning the vision in my right eye went blurry."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I feel tired and my scalp is sore."
+       }
+      ]
+     },
+     {
+      "title": "Headache and eye symptoms",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Where exactly is the headache, and what is it like? Is your scalp tender, for example when brushing your hair?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Right temple, throbbing, worse at night. Yes, my scalp hurts when I brush my hair."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Does your jaw ache or tire when you chew?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Yes, it eases when I rest."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any loss of vision, even for a short time, or double vision?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My right eye went black for a minute last week. This morning it is blurry. No double vision."
+       }
+      ]
+     },
+     {
+      "title": "Systemic symptoms and other red flags",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any fever, night sweats, weight loss, or stiffness in your shoulders or hips in the morning?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Night sweats, three kilos lost, and stiff shoulders for an hour in the morning."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any weakness, speech problems, head injury or neck pain?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No."
+       }
+      ]
+     },
+     {
+      "title": "Background",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any medical conditions, medicines, steroids, blood thinners or allergies?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Blood pressure tablets, amlodipine. No steroids, no blood thinners, no allergies."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Who is at home, and are you independent?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My husband, and yes."
+       }
+      ]
+     },
+     {
+      "title": "Ideas, concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Will I go blind?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "That is a fair worry. This could be inflammation of the blood vessels in the scalp, which can affect the eyes, and we treat it urgently to protect your sight. To summarise, you have had three weeks of right temple headache with scalp tenderness and jaw pain on chewing, a brief loss of vision last week and blurred vision today, with tiredness, weight loss and night sweats. I am arranging blood tests including inflammatory markers, and I will speak to the senior doctor and the eye team now. I expect to start steroids today without waiting for further tests. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Three weeks of right temporal headache, scalp tenderness, jaw claudication, transient then persisting blurred right eye vision, tiredness, weight loss, night sweats, morning stiffness, age 72."
+     },
+     {
+      "task": "Ask",
+      "expected": "Headache site and character, scalp tenderness, jaw claudication, visual symptoms, double vision, fever, weight loss, morning stiffness, steroids, blood thinners, previous GCA or polymyalgia."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: urgent senior and eye team review, ESR, CRP and bloods, start high-dose steroids without waiting, gastric and bone protection, temporal artery ultrasound or biopsy."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Vision worsens",
+      "response": "Escalate immediately to ophthalmology and the senior, and make sure steroids are given now."
+     },
+     {
+      "situation": "Patient is anxious about steroids",
+      "response": "Explain the benefit and the monitoring, and that the plan protects her sight."
+     },
+     {
+      "situation": "Patient wants to go home",
+      "response": "Explain the risk to sight clearly and why treatment cannot wait."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Giant cell arteritis",
+      "say": "Inflammation of the blood vessels in the scalp and head"
+     },
+     {
+      "term": "Jaw claudication",
+      "say": "Jaw pain that comes on with chewing and eases with rest"
+     },
+     {
+      "term": "Amaurosis fugax",
+      "say": "Brief loss of vision in one eye"
+     },
+     {
+      "term": "Polymyalgia rheumatica",
+      "say": "Stiffness and aching in the shoulders and hips"
+     },
+     {
+      "term": "Temporal artery biopsy",
+      "say": "A small sample of a blood vessel at the temple"
+     },
+     {
+      "term": "Steroids",
+      "say": "Strong anti-inflammatory medicine"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Will I go blind?",
+      "reply": "\"Treating quickly gives the best chance of protecting your sight, so we are starting treatment today.\""
+     },
+     {
+      "question": "Do I need a biopsy?",
+      "reply": "\"Probably, to confirm it, but we will not wait for it before starting treatment.\""
+     },
+     {
+      "question": "Are steroids safe?",
+      "reply": "\"They have side effects, so we will protect your stomach and bones and monitor you.\""
+     },
+     {
+      "question": "Is it serious?",
+      "reply": "\"Yes, which is why it is treated as an emergency.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Not asking about jaw pain, scalp tenderness and visual symptoms.",
+     "Delaying steroids for the biopsy.",
+     "Labelling it migraine or tension headache.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- Urgent senior and ophthalmology review, as visual symptoms mean sight is at risk.\n- Bloods: ESR, CRP, FBC, U&E, glucose.\n- Start high-dose steroids immediately per local protocol, without waiting for biopsy, with gastric and bone protection.\n- Arrange temporal artery ultrasound or biopsy."
+     },
+     {
+      "question": "What are the key features?",
+      "answer": "- Age over 50, new headache, scalp tenderness, jaw claudication.\n- Visual symptoms: amaurosis fugax, visual loss, double vision.\n- Systemic symptoms, polymyalgia rheumatica features, raised ESR and CRP, tender or pulseless temporal artery."
+     },
+     {
+      "question": "What are the complications?",
+      "answer": "- Permanent visual loss (anterior ischaemic optic neuropathy).\n- Stroke, aortic aneurysm and dissection, large vessel involvement.\n- Steroid side effects need monitoring."
+     },
+     {
+      "question": "Why not wait for a biopsy?",
+      "answer": "- Delay risks irreversible sight loss.\n- Biopsy remains useful for a period after starting steroids, so treat first."
+     }
+    ],
+    "teachingPoints": [
+     "New headache over 50 is giant cell arteritis until proven otherwise.",
+     "Ask about jaw claudication, scalp tenderness and visual symptoms.",
+     "Treat urgently with steroids to protect sight.",
+     "Biopsy or imaging confirms the diagnosis but does not delay treatment."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "headache-migraine-cluster",
+   "title": "Headache: migraine, cluster and red flags",
+   "group": "Headache",
+   "category": "Headache",
+   "summary": "Assess history taking in headache, identifying migraine features, applying the red flag screen, and recognising risks such as medication overuse and the combined pill with aura.",
+   "imageUrl": "/brand/t1.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 6,
+   "content": {
+    "aim": "Assess history taking in headache, identifying migraine features, applying the red flag screen, and recognising risks such as medication overuse and the combined pill with aura.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Ms Hannah Price, 29, has come in with a severe headache. Observations are normal, temperature 36.8, GCS 15. Take a focused history. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Witness",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Left-sided throbbing headache since this morning, 8 out of 10, worse with movement. Nausea, vomited once, light and noise hurt.",
+       "About 20 minutes of zigzag lines in the left visual field before the pain, moving across and then clearing.",
+       "Similar headaches since her late teens, one or two a month until recently, now weekly for two months. Today is like the usual ones but longer. Not sudden, not the worst ever.",
+       "Co-codamol on about 12 days a month. No fever, neck stiffness, rash, head injury, weakness or speech problems.",
+       "Combined oral contraceptive pill. Non-smoker, occasional alcohol, no allergies. Mother has migraines.",
+       "Stressful job, poor sleep, skips meals. Concern if asked: \"Is it a brain tumour? Why are they getting worse?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Hannah Price, 8th April 1997."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I have had a throbbing headache on the left side since this morning, and I feel sick."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Light and noise bother me, and I saw zigzag lines before it started."
+       }
+      ]
+     },
+     {
+      "title": "The headache",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "How did it start, and how quickly did it become severe?"
+       },
+       {
+        "speaker": "patient",
+        "text": "It built up over about an hour. Nothing sudden."
+       },
+       {
+        "speaker": "doctor",
+        "text": "How bad is it out of ten, and what makes it better or worse?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Eight. Movement makes it worse, and lying in the dark helps."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Tell me about the zigzag lines."
+       },
+       {
+        "speaker": "patient",
+        "text": "About twenty minutes, in my left vision, moving across and then clearing, before the pain."
+       }
+      ]
+     },
+     {
+      "title": "Pattern and previous headaches",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Have you had headaches like this before? How often?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Since my teens. One or two a month, but weekly for the last two months."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Is today the same as usual, or different?"
+       },
+       {
+        "speaker": "patient",
+        "text": "The same, just longer. Not the worst ever."
+       },
+       {
+        "speaker": "doctor",
+        "text": "What painkillers do you take, and on how many days a month?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Co-codamol, about twelve days a month."
+       }
+      ]
+     },
+     {
+      "title": "Red flags",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any fever, neck stiffness, rash or head injury?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any weakness, numbness, speech problems or confusion? Is the headache worse lying down or coughing, or does it wake you from sleep?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any weight loss, cancer history or problems with your immune system?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No."
+       }
+      ]
+     },
+     {
+      "title": "Background and concerns",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Do you take the contraceptive pill or other medicines? Do you smoke? Any family history?"
+       },
+       {
+        "speaker": "patient",
+        "text": "The combined pill. I do not smoke. My mother has migraines."
+       },
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Is it a tumour? Why are they getting worse?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "Those are understandable worries. Your story fits migraine with aura, with no red flag features. To summarise, you have had a left-sided throbbing headache since this morning, with a visual aura, nausea and light sensitivity, similar to your usual attacks but more frequent, and you take painkillers on many days. The combined pill is generally advised against with migraine with aura, so please speak to your GP about other contraception. I will treat this attack, examine you, and give advice about painkiller use. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Left throbbing headache with visual aura, nausea and light sensitivity, similar to usual pattern but more frequent, no red flags, painkillers on about 12 days a month, combined pill, family history of migraine."
+     },
+     {
+      "task": "Ask",
+      "expected": "Onset speed, severity, aura, nausea, light sensitivity, previous pattern and change in pattern, painkiller use, red flags (fever, neck stiffness, neurology, head injury, weight loss), contraceptive pill, family history, triggers, sleep and stress."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: neurological examination with fundi and blood pressure, treat the attack with analgesia, antiemetic and a triptan if suitable, avoid opioids, advise on painkiller overuse and the combined pill, GP follow-up."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient describes a sudden worst headache",
+      "response": "Switch to the thunderclap pathway: urgent CT and senior review."
+     },
+     {
+      "situation": "Patient is worried about a tumour",
+      "response": "Acknowledge the worry, explain the features that make a tumour unlikely, and safety net."
+     },
+     {
+      "situation": "Patient asks for strong painkillers",
+      "response": "Explain that opioids can worsen headaches and offer better treatment."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Migraine",
+      "say": "A throbbing headache, often with sickness and sensitivity to light"
+     },
+     {
+      "term": "Aura",
+      "say": "Warning symptoms such as zigzag lines before the headache"
+     },
+     {
+      "term": "Cluster headache",
+      "say": "Very severe pain around one eye, in short daily bouts"
+     },
+     {
+      "term": "Tension-type headache",
+      "say": "A tight, band-like headache on both sides"
+     },
+     {
+      "term": "Medication overuse headache",
+      "say": "Headache caused by taking painkillers too often"
+     },
+     {
+      "term": "Triptan",
+      "say": "A migraine-specific tablet or injection"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Is it a brain tumour?",
+      "reply": "\"Your symptoms fit migraine, and nothing here points to a tumour. We will examine you and tell you what to watch for.\""
+     },
+     {
+      "question": "Why are they getting worse?",
+      "reply": "\"Frequent painkillers, poor sleep and stress can all make migraines more frequent.\""
+     },
+     {
+      "question": "Is the pill a problem?",
+      "reply": "\"Migraine with aura is a reason to review the combined pill, so please see your GP soon.\""
+     },
+     {
+      "question": "Can I have stronger painkillers?",
+      "reply": "\"Opioids are not helpful and can make headaches worse. We will treat the migraine properly.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "No red flag screen, or labelling migraine without asking about sudden onset.",
+     "Not asking about painkiller use or the contraceptive pill.",
+     "Giving opioids for migraine.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- Neurological examination including fundi and blood pressure.\n- Treat the attack: simple analgesia (aspirin, paracetamol or an NSAID), antiemetic, and a triptan if suitable. Avoid opioids.\n- Exclude red flags before labelling it migraine. Give discharge advice and arrange GP follow-up."
+     },
+     {
+      "question": "What red flags (SNOOP) change management?",
+      "answer": "- Systemic symptoms (fever, weight loss, cancer, HIV), Neurological signs, sudden Onset (thunderclap), Older age (new headache over 50), Pattern change or progression.\n- Also: postural headache, papilloedema, pregnancy."
+     },
+     {
+      "question": "How do migraine, cluster and tension-type headache differ?",
+      "answer": "- Migraine: unilateral throbbing, 4 to 72 hours, nausea, light sensitivity, aura in some.\n- Cluster: severe unilateral pain around the eye, 15 to 180 minutes, red watering eye, nasal congestion, restlessness. Treat with high-flow oxygen and a triptan.\n- Tension-type: bilateral, band-like, mild to moderate, no nausea."
+     },
+     {
+      "question": "What are the key safety points here?",
+      "answer": "- Medication overuse headache: simple analgesics on 15 or more days a month, or opioids or triptans on 10 or more days.\n- Migraine with aura and the combined pill: advise review of contraception.\n- GP follow-up, headache diary, and consider preventive treatment."
+     }
+    ],
+    "teachingPoints": [
+     "Screen red flags (SNOOP) before labelling migraine.",
+     "Ask about aura and the combined pill.",
+     "Watch for medication overuse headache.",
+     "Treat early with analgesia, antiemetic and a triptan."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "encephalitis",
+   "title": "Encephalitis",
+   "group": "CNS infection",
+   "category": "CNS infection",
+   "summary": "Assess history taking in a febrile, confused patient with a seizure, recognising encephalitis and the need for immediate aciclovir, using collateral from a relative.",
+   "imageUrl": "/brand/t2.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 7,
+   "content": {
+    "aim": "Assess history taking in a febrile, confused patient with a seizure, recognising encephalitis and the need for immediate aciclovir, using collateral from a relative.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mr James Foster, 35, has been brought in by his wife Claire with confusion. Observations: temperature 38.4, HR 104, BP 122/76, SpO2 97%, GCS 13 (confused), glucose 6.0. He cannot give a reliable history, so take a focused history mainly from his wife. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Wife",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Claire: three days of fever, headache and tiredness. Yesterday he became quiet and muddled. Today he repeated questions, once did not recognise their daughter, and had a seizure at home lasting two minutes.",
+       "Struggling to find words today, saying odd things, irritable. Light bothers him. No rash. No neck stiffness noticed.",
+       "Cold sore on his lip a week ago. No head injury, travel abroad, tick or animal bites, or ear or sinus problem.",
+       "Fit and well, no medical conditions, immunosuppression, medicines, allergies or drugs. Alcohol occasionally. Vaccinations up to date.",
+       "Surveyor, lives with his wife and two children. Nobody at home is unwell.",
+       "James if asked: vague, \"I have a headache.\" Claire if asked: \"What is wrong with him? Will he be alright?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and approach",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. James, can you tell me your full name?"
+       },
+       {
+        "speaker": "patient",
+        "text": "James Foster. I think 1991."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you, James. I will ask your wife to help with the history. Claire, are you happy to answer for him?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Yes, I am his wife."
+       }
+      ]
+     },
+     {
+      "title": "Open question to his wife",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "witness",
+        "text": "He has had a fever and headache for three days. Yesterday he went quiet and muddled, and today he was confused and had a seizure."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else you have noticed?"
+       },
+       {
+        "speaker": "witness",
+        "text": "He has been struggling to find words and has been irritable."
+       }
+      ]
+     },
+     {
+      "title": "Seizure and timing",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "When was he last completely well?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Three days ago."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Tell me about the seizure. How long did it last, and what happened?"
+       },
+       {
+        "speaker": "witness",
+        "text": "About two minutes. He went stiff, then jerked all over. He was drowsy afterwards and is still confused."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Has he had any seizures before?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Never."
+       }
+      ]
+     },
+     {
+      "title": "Infective and risk history",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any rash, neck stiffness, light sensitivity or head injury?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Light bothers him. No rash, no head injury."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any recent cold sores, ear or sinus infection, travel, tick or animal bites, or anyone at home unwell?"
+       },
+       {
+        "speaker": "witness",
+        "text": "A cold sore on his lip last week. No travel or bites. Nobody else is ill."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any condition that lowers his immunity, regular medicines, drug or alcohol use, or allergies?"
+       },
+       {
+        "speaker": "witness",
+        "text": "No. Alcohol only occasionally."
+       }
+      ]
+     },
+     {
+      "title": "Concerns and plan",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "witness",
+        "text": "What is wrong with him? Will he be alright?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "I understand. This could be an infection or inflammation of the brain, called encephalitis. It is serious and we treat it urgently. To summarise, James has had fever and headache for three days, then confusion, word-finding difficulty and a seizure today, with a recent cold sore. I am starting an antiviral drug through a drip straight away, with blood tests, a head scan and a back needle test, and the senior and critical care teams will see him. Any questions?"
+       },
+       {
+        "speaker": "witness",
+        "text": "No. Please help him."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Three days of fever and headache, then confusion, word-finding difficulty, irritability and a two-minute generalised seizure today, recent cold sore, no travel, bites or immunosuppression."
+     },
+     {
+      "task": "Ask",
+      "expected": "Time course, last well, seizure details, behaviour change, speech, fever, rash, neck stiffness, light sensitivity, cold sores, head injury, travel, bites, contacts, immunosuppression, medicines, alcohol, vaccination."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, glucose, bloods and cultures, immediate IV aciclovir, consider ceftriaxone, treat seizures, CT before LP if indicated, LP with HSV PCR, MRI, EEG, senior and critical care."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient has another seizure",
+      "response": "Protect the airway, give a first-line benzodiazepine per protocol, call for help, check glucose."
+     },
+     {
+      "situation": "Wife asks if it is contagious",
+      "response": "Explain it is not usually spread between people, and that public health will advise if needed."
+     },
+     {
+      "situation": "Patient becomes more drowsy",
+      "response": "Recheck ABCDE and GCS, call critical care, repeat glucose."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Encephalitis",
+      "say": "Inflammation of the brain itself, usually from infection"
+     },
+     {
+      "term": "Meningitis",
+      "say": "Infection of the lining around the brain and spinal cord"
+     },
+     {
+      "term": "Aciclovir",
+      "say": "An antiviral medicine given through a drip"
+     },
+     {
+      "term": "Lumbar puncture",
+      "say": "A needle test in the lower back to take fluid"
+     },
+     {
+      "term": "HSV",
+      "say": "The cold sore virus"
+     },
+     {
+      "term": "EEG",
+      "say": "A painless test that records electrical activity of the brain"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "What is wrong with him?",
+      "reply": "\"It looks like an infection or inflammation of the brain. It is serious, and we are treating it now.\""
+     },
+     {
+      "question": "Will he be alright?",
+      "reply": "\"Treating early gives the best chance, but I cannot promise. We will keep you updated.\""
+     },
+     {
+      "question": "Is it because of the cold sore?",
+      "reply": "\"The cold sore virus is one possible cause, which is why we start the antiviral drug straight away.\""
+     },
+     {
+      "question": "Can the children catch it?",
+      "reply": "\"It is not usually spread between people. We will check with public health.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Delaying aciclovir for tests.",
+     "Not asking about the seizure, behaviour change and cold sores.",
+     "No senior or critical care escalation.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- ABCDE, glucose, IV access, bloods and blood cultures, lactate.\n- IV aciclovir immediately, without waiting for tests. Cover bacterial meningitis with ceftriaxone until excluded. Treat seizures.\n- CT head before lumbar puncture if indicated, then LP with HSV PCR. MRI and EEG. Senior and critical care review."
+     },
+     {
+      "question": "Why start aciclovir early?",
+      "answer": "- Herpes simplex is the commonest treatable cause.\n- Delay increases death and brain damage, so treat on suspicion and stop only on specialist advice."
+     },
+     {
+      "question": "How does encephalitis differ from meningitis?",
+      "answer": "- Encephalitis: altered consciousness, behaviour change, seizures, focal signs (dysphasia, weakness).\n- Meningitis: headache, neck stiffness, light sensitivity, fever, with less brain dysfunction.\n- They overlap, so treat both until clarified."
+     },
+     {
+      "question": "What are the other causes?",
+      "answer": "- Autoimmune encephalitis, bacterial meningitis or brain abscess, other viruses (VZV, enteroviruses, arboviruses), TB, Lyme disease.\n- Toxic or metabolic causes and stroke."
+     }
+    ],
+    "teachingPoints": [
+     "Fever plus confusion plus seizure is encephalitis until proven otherwise.",
+     "Give aciclovir without waiting for tests.",
+     "Ask about cold sores, travel, bites and immunity.",
+     "CT before LP only if indicated, and never delay treatment."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "syncope-versus-seizure",
+   "title": "Syncope versus seizure",
+   "group": "Collapse and altered consciousness",
+   "category": "Collapse and altered consciousness",
+   "summary": "Assess history taking after a collapse, separating syncope from seizure and identifying cardiac red flags that need further investigation.",
+   "imageUrl": "/brand/t3.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 8,
+   "content": {
+    "aim": "Assess history taking after a collapse, separating syncope from seizure and identifying cardiac red flags that need further investigation.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mr Robert Hale, 52, collapsed at a family wedding and was brought in by ambulance. He now feels well. Observations: BP 138/84, HR 78 regular, SpO2 98%, glucose 6.1. His wife Linda saw it. Take a focused history from both. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Wife",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Robert: standing in a hot, crowded hall for 30 minutes; felt hot, sweaty and nauseous, vision went grey, then woke on the floor. Tired afterwards. No tongue bite or incontinence.",
+       "Linda: he went pale and sweaty, slumped and fell, a few brief jerks of the arms for about 10 seconds, back to normal within a minute, not confused.",
+       "No chest pain, palpitations, breathlessness or exertion before. Small bump to the head only. No fever.",
+       "One similar faint a year ago during a blood test.",
+       "Hypertension on ramipril. No heart problems or blood thinners. No family history of sudden death or heart disease. One glass of wine, no drugs.",
+       "Concern if asked: \"Was that a fit? Is it my heart? Can I still drive?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Robert Hale, 14th November 1973."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what happened, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I was standing in a hot room, felt hot and sick, my vision went grey, and then I woke up on the floor."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I felt tired afterwards."
+       }
+      ]
+     },
+     {
+      "title": "Witness account",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Linda, what did you see?"
+       },
+       {
+        "speaker": "witness",
+        "text": "He went pale and sweaty, slumped, then fell. His arms jerked a few times for about ten seconds."
+       },
+       {
+        "speaker": "doctor",
+        "text": "How long was he out, and how was he afterwards?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Less than a minute, and he was back to normal quickly, not confused."
+       }
+      ]
+     },
+     {
+      "title": "Before and after",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Robert, what were you doing, and was there any chest pain, palpitations or breathlessness before?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Standing for half an hour. No chest pain or palpitations."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Was it during exercise? Any tongue biting, incontinence or confusion afterwards?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No exercise, no tongue bite, no incontinence."
+       }
+      ]
+     },
+     {
+      "title": "Past, drugs and family",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Have you fainted before? Any heart problems, high blood pressure, medicines or blood thinners?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Once a year ago at a blood test. High blood pressure, ramipril."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any family history of sudden death, heart disease or fits? Alcohol or drugs?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No family history. One glass of wine, no drugs."
+       }
+      ]
+     },
+     {
+      "title": "Concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Was that a fit? Is it my heart? Can I drive?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "Those are sensible questions. The story fits a faint, with a warning, grey vision, quick recovery and brief jerks, which can happen when the brain is short of blood. We still need to check your heart. To summarise, you collapsed after standing in a hot room, with warning symptoms, a few seconds of jerking and rapid recovery, and no chest pain, palpitations, exertion or family history. I am arranging a heart tracing, lying and standing blood pressure, blood tests and a glucose check. Please do not drive until we have talked through the results. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Collapse after prolonged standing in heat with warning symptoms, pallor, grey vision, brief jerks under ten seconds, recovery within a minute, no tongue bite, incontinence or confusion, no exertion, palpitations or family history."
+     },
+     {
+      "task": "Ask",
+      "expected": "Trigger, prodrome, witness account, duration, recovery, tongue bite, incontinence, exertion, chest pain, palpitations, previous episodes, heart disease, medicines, family history of sudden death, alcohol and drugs."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, glucose, ECG, lying and standing blood pressure, bloods, risk stratify for cardiac causes, driving and safety advice, follow-up."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "ECG shows an abnormality",
+      "response": "Escalate, monitor, and arrange cardiology review before discharge."
+     },
+     {
+      "situation": "Patient asks about driving",
+      "response": "Give clear advice, and explain the rules depend on the final cause."
+     },
+     {
+      "situation": "Witness is upset",
+      "response": "Thank her, reassure that she acted well, and explain the plan."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Syncope",
+      "say": "A faint caused by a short drop in blood flow to the brain"
+     },
+     {
+      "term": "Vasovagal",
+      "say": "A common faint triggered by standing, heat or pain"
+     },
+     {
+      "term": "Prodrome",
+      "say": "Warning symptoms before the faint"
+     },
+     {
+      "term": "Arrhythmia",
+      "say": "An abnormal heart rhythm"
+     },
+     {
+      "term": "ECG",
+      "say": "A heart tracing"
+     },
+     {
+      "term": "Orthostatic blood pressure",
+      "say": "Blood pressure lying and standing"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Was that a fit?",
+      "reply": "\"The story fits a faint. Brief jerks can happen in a faint.\""
+     },
+     {
+      "question": "Is it my heart?",
+      "reply": "\"It is probably not, but we will check your heart tracing.\""
+     },
+     {
+      "question": "Can I drive?",
+      "reply": "\"Please do not drive until we have reviewed your results. The rules depend on the cause.\""
+     },
+     {
+      "question": "Will it happen again?",
+      "reply": "\"It can. Staying hydrated and lying down at the first warning sign helps.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "No witness account or no prodrome questions.",
+     "Missing cardiac red flags such as exertion, palpitations or family history.",
+     "No ECG, or no driving advice.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "How do you distinguish syncope from seizure?",
+      "answer": "- Syncope: trigger (standing, heat, pain), prodrome, pallor, brief jerks under about 15 seconds, rapid recovery.\n- Seizure: aura, longer tonic-clonic activity, lateral tongue bite, incontinence, prolonged confusion."
+     },
+     {
+      "question": "Which features suggest a cardiac cause?",
+      "answer": "- Exertional collapse, no prodrome, palpitations, chest pain, collapse when lying down.\n- Family history of sudden death at a young age, known structural heart disease.\n- Abnormal ECG (long QT, Brugada pattern, heart block, pre-excitation)."
+     },
+     {
+      "question": "What are your investigations?",
+      "answer": "- ECG in everyone, lying and standing blood pressure, glucose, FBC and U&E.\n- Consider troponin, echocardiogram and ambulatory monitoring if red flags.\n- CT head if there is a head injury."
+     },
+     {
+      "question": "What advice and follow-up do you give?",
+      "answer": "- Explain the benign nature if vasovagal; stay hydrated, avoid triggers, lie down at the first warning.\n- Driving advice per DVLA rules.\n- Cardiology review if any red flag."
+     }
+    ],
+    "teachingPoints": [
+     "A witness account separates syncope from seizure.",
+     "Ask about exertion, palpitations and family history.",
+     "Do an ECG in every collapse.",
+     "Brief jerks can occur in a faint."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "guillain-barre",
+   "title": "Guillain-Barré syndrome",
+   "group": "Weakness and spinal",
+   "category": "Weakness and spinal",
+   "summary": "Assess history taking in progressive ascending weakness, recognising Guillain-Barré syndrome and its breathing and autonomic risks, and distinguishing it from cord compression.",
+   "imageUrl": "/brand/t4.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 9,
+   "content": {
+    "aim": "Assess history taking in progressive ascending weakness, recognising Guillain-Barré syndrome and its breathing and autonomic risks, and distinguishing it from cord compression.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mr Ahmed Hassan, 45, has come in with leg weakness and tingling. Observations: HR 96, BP 130/80, RR 20, SpO2 96% on air, temperature 36.8. Take a focused history. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Witness",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Tingling in toes and fingers began 3 days ago. Legs weak over two days; today he struggled on stairs and could not stand from a chair. Hands now clumsy.",
+       "Diarrhoea and cramps two weeks ago for four days. Mild lower back ache.",
+       "Slightly short of breath lying flat, swallowing feels odd, face a little weak.",
+       "No bladder or bowel problems, no saddle numbness, no fever, rash, tick bite, head injury or travel.",
+       "No medical conditions, medicines or allergies. Delivery driver, lives with his wife. Non-smoker.",
+       "Concern if asked: \"Am I going to be paralysed? Will I walk again?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Ahmed Hassan, 21st August 1981."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My legs have become weak over the last two days, and I have tingling in my toes and fingers."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I am a bit short of breath lying flat, and swallowing feels odd."
+       }
+      ]
+     },
+     {
+      "title": "Weakness pattern",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "When did the tingling start, and how has the weakness spread?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Three days ago in my toes, then my legs, and now my hands are clumsy."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Is it both sides, and is it getting worse each day?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Both sides, and yes, worse each day."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Can you climb stairs, stand from a chair, or hold things?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Stairs were hard today. I could not stand from a chair without help."
+       }
+      ]
+     },
+     {
+      "title": "Preceding illness and key negatives",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Have you had any recent illness, such as diarrhoea, a chest infection or a vaccination?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Diarrhoea and cramps two weeks ago for four days."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any bladder or bowel problems, numbness around your back passage, or severe back pain?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No bladder or bowel problems or numbness. Just a mild back ache."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any fever, rash, tick bite, head injury or recent travel?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No."
+       }
+      ]
+     },
+     {
+      "title": "Breathing, swallowing and background",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any difficulty breathing, choking on food, a weak voice or facial weakness?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Slightly short of breath lying flat, swallowing feels odd, and my face feels a little weak."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any medical conditions, medicines or allergies? Who do you live with?"
+       },
+       {
+        "speaker": "patient",
+        "text": "None. My wife, and I work as a delivery driver."
+       }
+      ]
+     },
+     {
+      "title": "Concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Am I going to be paralysed? Will I walk again?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "Those are fair worries. This could be a condition where the immune system affects the nerves, called Guillain-Barré syndrome. It needs urgent assessment because it can affect breathing. To summarise, you have had three days of tingling and weakness spreading upwards from your legs, after diarrhoea two weeks ago, with a little breathlessness and swallowing difficulty, and no bladder or bowel problems. I am arranging breathing tests, bloods, and senior and neurology review now, and you will stay under close observation. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Three days of ascending tingling and symmetrical weakness after diarrhoea two weeks ago, back ache, mild breathlessness lying flat, swallowing difficulty, facial weakness, no bladder or bowel dysfunction or saddle numbness."
+     },
+     {
+      "task": "Ask",
+      "expected": "Time course and pattern, preceding infection, bladder, bowel and saddle sensation, back pain, breathing, swallowing, facial weakness, fever, rash, tick bite, travel, vaccination, medicines."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, forced vital capacity and negative inspiratory force, continuous monitoring, nil by mouth, bloods, senior, neurology and critical care review, lumbar puncture and nerve conduction studies, IV immunoglobulin or plasma exchange, VTE prophylaxis."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Breathing worsens",
+      "response": "Call critical care immediately, check vital capacity and gases, prepare for ventilatory support."
+     },
+     {
+      "situation": "Heart rate or blood pressure swings",
+      "response": "Continuous ECG, escalate for autonomic instability."
+     },
+     {
+      "situation": "Patient is frightened about paralysis",
+      "response": "Acknowledge the fear, be honest, explain the monitoring and treatment."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Guillain-Barré syndrome",
+      "say": "The immune system attacking the nerves, causing weakness"
+     },
+     {
+      "term": "Ascending weakness",
+      "say": "Weakness that starts in the feet and spreads upwards"
+     },
+     {
+      "term": "Reflexes",
+      "say": "The knee jerk and similar automatic responses"
+     },
+     {
+      "term": "Forced vital capacity",
+      "say": "A breathing test measuring how much air you can blow out"
+     },
+     {
+      "term": "Lumbar puncture",
+      "say": "A needle test in the lower back to take fluid"
+     },
+     {
+      "term": "IV immunoglobulin",
+      "say": "Antibodies given through a drip to calm the immune attack"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Am I going to be paralysed?",
+      "reply": "\"Weakness can progress, which is why we are watching you closely. Treatment helps, and most people recover over time.\""
+     },
+     {
+      "question": "Will I walk again?",
+      "reply": "\"Most people improve, though recovery can take weeks to months. The team will support you.\""
+     },
+     {
+      "question": "Will it affect my breathing?",
+      "reply": "\"It can, so we will check your breathing regularly and act early.\""
+     },
+     {
+      "question": "What caused it?",
+      "reply": "\"Often an infection beforehand, such as your diarrhoea illness. It is not your fault.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Not asking about bladder, bowel and saddle symptoms, or missing the preceding illness.",
+     "No monitoring of breathing and swallowing.",
+     "No senior or critical care escalation.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- ABCDE, continuous monitoring, and regular forced vital capacity and negative inspiratory force, not just oxygen saturation.\n- ECG monitoring for autonomic instability, swallow assessment, nil by mouth.\n- Urgent senior, neurology and critical care review.\n- Bloods including U&E (sodium), glucose and CK. Lumbar puncture and nerve conduction studies. MRI if cord compression is possible."
+     },
+     {
+      "question": "How do you distinguish it from cord compression?",
+      "answer": "- Guillain-Barré: symmetrical ascending weakness, reduced or absent reflexes, no sensory level, sphincters usually spared early.\n- Cord compression: sensory level, back pain, early bladder and bowel disturbance, upper motor neurone signs later. Needs MRI."
+     },
+     {
+      "question": "What are the dangers and treatments?",
+      "answer": "- Respiratory failure, autonomic instability (arrhythmia, blood pressure swings), bulbar weakness, thromboembolism.\n- IV immunoglobulin or plasma exchange, supportive care, VTE prophylaxis, pain control."
+     },
+     {
+      "question": "What are common triggers?",
+      "answer": "- Campylobacter gastroenteritis, respiratory infections, CMV, EBV, Zika.\n- Rarely, vaccination."
+     }
+    ],
+    "teachingPoints": [
+     "Ascending symmetrical weakness with absent reflexes suggests Guillain-Barré syndrome.",
+     "Monitor breathing with forced vital capacity, not just oxygen saturation.",
+     "Rule out cord compression when there is a sensory level or sphincter disturbance.",
+     "Treatment is IV immunoglobulin or plasma exchange."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "bells-palsy",
+   "title": "Bell’s palsy",
+   "group": "Weakness and spinal",
+   "category": "Weakness and spinal",
+   "summary": "Assess history taking in acute facial weakness, separating Bell palsy from stroke and other causes, and giving clear advice on eye care and follow-up.",
+   "imageUrl": "/brand/t5.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 10,
+   "content": {
+    "aim": "Assess history taking in acute facial weakness, separating Bell palsy from stroke and other causes, and giving clear advice on eye care and follow-up.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Ms Emma Clarke, 34, has come in with a drooping face. Observations are normal and glucose is 5.2. Take a focused history. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Witness",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Woke yesterday with the right side of her face drooping. Pain behind the right ear for two days before. She cannot close the right eye or raise the right eyebrow.",
+       "Food tastes odd, sounds seem too loud on the right, dribbling when drinking, right eye watery and sore.",
+       "No arm or leg weakness, speech or swallowing problems, headache, vision change or confusion.",
+       "Cold a week ago. No ear discharge, rash or blisters, hearing loss, tick bite, travel, head injury or fever.",
+       "No medical conditions, medicines or allergies. Not pregnant. Primary school teacher, lives with her partner.",
+       "Concern if asked: \"Is it a stroke? Will my face go back to normal? My eye feels dry.\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Emma Clarke, 5th June 1992."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I woke up yesterday and the right side of my face was drooping."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My right eye will not close properly and food tastes strange."
+       }
+      ]
+     },
+     {
+      "title": "Onset and facial symptoms",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "How quickly did it develop, and when were you last completely well?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I went to bed fine and noticed it when I woke up. I had pain behind my right ear for two days before."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Can you close your right eye and raise your right eyebrow?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No, neither."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any dribbling, change in taste, or sounds seeming too loud?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Yes, I dribble when I drink, food tastes odd, and sounds are louder on the right."
+       }
+      ]
+     },
+     {
+      "title": "Stroke and other red flags",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any weakness or numbness in your arm or leg, trouble speaking or swallowing, headache, or changes in vision?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No, none of those."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any blisters in or around the ear, hearing loss, discharge, a tick bite or a rash?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No blisters, no hearing loss, no tick bite."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any head injury, fever or recent illness?"
+       },
+       {
+        "speaker": "patient",
+        "text": "A cold last week. No head injury or fever."
+       }
+      ]
+     },
+     {
+      "title": "Background",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any medical conditions, medicines or allergies? Could you be pregnant?"
+       },
+       {
+        "speaker": "patient",
+        "text": "None, and I am not pregnant."
+       },
+       {
+        "speaker": "doctor",
+        "text": "What do you do for work, and who is at home?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I teach primary school and live with my partner."
+       }
+      ]
+     },
+     {
+      "title": "Concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Is it a stroke? Will my face go back to normal? My eye feels dry."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Those are fair worries. The pattern, with the forehead affected and no arm, leg or speech problems, fits Bell palsy, where the facial nerve is inflamed. Most people recover well, usually over weeks to a few months. I will examine you to confirm it is not a stroke. To summarise, you have had facial weakness since yesterday morning, with ear pain beforehand, taste change, loud sounds and trouble closing the right eye, and no other symptoms. I will start steroids, give you eye protection and drops, and arrange follow-up. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Facial weakness developing over hours, forehead involved (cannot raise eyebrow or close eye), ear pain beforehand, taste change, loud sounds, dribbling, no limb or speech symptoms, no vesicles, no tick bite, recent cold."
+     },
+     {
+      "task": "Ask",
+      "expected": "Onset and last well, forehead involvement, eye closure, taste, hearing, ear pain and blisters, limb weakness, speech, headache, tick bite, travel, recent illness, diabetes, pregnancy, medicines."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: exclude stroke by examination, check ears for vesicles, glucose and blood pressure, prednisolone per local guideline within 72 hours, eye care, safety netting and follow-up."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient is frightened it is a stroke",
+      "response": "Acknowledge the worry, explain the features pointing away from stroke, and say you will examine to confirm."
+     },
+     {
+      "situation": "Eye is red or painful",
+      "response": "Arrange urgent eye review and protect the cornea."
+     },
+     {
+      "situation": "Blisters are found in the ear",
+      "response": "Think of Ramsay Hunt syndrome and discuss antivirals and steroids with the senior."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Bell palsy",
+      "say": "Sudden weakness of one side of the face from an inflamed facial nerve"
+     },
+     {
+      "term": "Facial nerve",
+      "say": "The nerve that moves the muscles of the face"
+     },
+     {
+      "term": "Hyperacusis",
+      "say": "Sounds seeming too loud"
+     },
+     {
+      "term": "Ramsay Hunt syndrome",
+      "say": "Facial weakness with a shingles-type rash in the ear"
+     },
+     {
+      "term": "Lower motor neurone weakness",
+      "say": "Weakness from a problem in the nerve itself"
+     },
+     {
+      "term": "Corneal protection",
+      "say": "Looking after the eye surface so it does not dry out"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Is it a stroke?",
+      "reply": "\"The pattern points to a facial nerve problem rather than a stroke, and I will examine you to confirm.\""
+     },
+     {
+      "question": "Will my face recover?",
+      "reply": "\"Most people recover well, usually over weeks to a few months.\""
+     },
+     {
+      "question": "Do I need medicine?",
+      "reply": "\"Steroids started early can help, and I will give you eye care advice.\""
+     },
+     {
+      "question": "Why is my eye dry?",
+      "reply": "\"You cannot blink or close it fully, so it needs drops and protection.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Not asking about forehead involvement or limb and speech symptoms.",
+     "No eye protection advice.",
+     "Missing ear vesicles or tick bite history, or no follow-up plan.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "How do you tell Bell palsy from stroke?",
+      "answer": "- Bell palsy (lower motor neurone): forehead is involved, the whole half of the face is weak, no limb weakness.\n- Stroke (upper motor neurone): forehead is spared, and arm, leg, speech or visual problems may be present."
+     },
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- Examine cranial nerves and the ears for vesicles; exclude stroke; check glucose and blood pressure.\n- Prednisolone started within 72 hours of onset, per local guideline.\n- Eye care: lubricating drops by day, ointment and taping at night; urgent eye review if the eye is painful or red."
+     },
+     {
+      "question": "What other causes must you consider?",
+      "answer": "- Ramsay Hunt syndrome (vesicles, hearing loss, severe ear pain).\n- Lyme disease (tick bite, travel), otitis media or cholesteatoma, parotid tumour, stroke, diabetes, HIV, sarcoidosis.\n- Bilateral weakness suggests Guillain-Barré syndrome or Lyme disease."
+     },
+     {
+      "question": "What follow-up and safety netting do you give?",
+      "answer": "- Review within a few days. Refer to specialist care if no improvement after about three weeks, or sooner if atypical features.\n- Most recover within three to six months.\n- Return if limb weakness, speech problems, eye problems or new symptoms."
+     }
+    ],
+    "teachingPoints": [
+     "Forehead involvement suggests Bell palsy rather than stroke.",
+     "Check the ears for vesicles and ask about tick bites.",
+     "Protect the eye and start steroids within 72 hours.",
+     "Safety net and arrange follow-up."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "acute-dizziness",
+   "title": "Acute dizziness (BPPV, vestibular neuritis, posterior stroke)",
+   "group": "Dizziness",
+   "category": "Dizziness",
+   "summary": "Assess history taking in acute dizziness, separating peripheral causes (BPPV, vestibular neuritis) from a posterior circulation stroke.",
+   "imageUrl": "/brand/t6.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 11,
+   "content": {
+    "aim": "Assess history taking in acute dizziness, separating peripheral causes (BPPV, vestibular neuritis) from a posterior circulation stroke.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mr Peter Collins, 58, has come in with sudden dizziness and vomiting, with his wife. Observations: BP 172/96, HR 88 regular, temperature 36.7, glucose 7.4. Take a focused history from both. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Wife",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Normal at 07:00. At 08:30 the room suddenly started spinning, with vomiting. Constant since, not only with head movement.",
+       "Cannot walk without falling to the right, even sitting is hard. Headache at the back of the head and neck pain.",
+       "Slight double vision looking right. Wife thinks his speech sounds slurred. No hearing loss or ringing.",
+       "No head injury, recent viral illness, ear pain, chest pain, palpitations or blackout.",
+       "Hypertension, type 2 diabetes, smokes 20 a day. Takes amlodipine and metformin. No blood thinners. No allergies.",
+       "Concern if asked: \"Is it my ears? Could it be a stroke?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Peter Collins, 17th January 1968."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Suddenly the room started spinning this morning and I was sick. I cannot walk straight."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "A headache, and my neck is sore."
+       }
+      ]
+     },
+     {
+      "title": "Nature, timing and triggers",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What time did it start, and has it been constant, or does it come and go?"
+       },
+       {
+        "speaker": "patient",
+        "text": "About half past eight, and it is constant. It does not stop when I keep still."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Does it get worse with head movement, or when turning in bed?"
+       },
+       {
+        "speaker": "patient",
+        "text": "A bit, but it is there all the time."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Grace, when was Peter last completely well?"
+       },
+       {
+        "speaker": "witness",
+        "text": "He was fine when he woke at seven this morning."
+       }
+      ]
+     },
+     {
+      "title": "Central red flags",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any double vision, slurred speech, weakness, numbness or trouble swallowing?"
+       },
+       {
+        "speaker": "patient",
+        "text": "A little double vision looking right."
+       },
+       {
+        "speaker": "witness",
+        "text": "His speech sounded slurred to me."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Can you stand or walk on your own?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No, I fall to the right."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any headache, neck pain or recent neck injury?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Back of the head and neck ache. No injury."
+       }
+      ]
+     },
+     {
+      "title": "Ear symptoms and background",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any hearing loss, ringing, ear pain, or a recent cold or virus?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any chest pain, palpitations or blackout?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Medical conditions, medicines, blood thinners, smoking?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Blood pressure and diabetes, amlodipine and metformin, no blood thinners, and I smoke twenty a day."
+       }
+      ]
+     },
+     {
+      "title": "Concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Is it my ears? Could it be a stroke?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "It could be a problem with the blood supply to the back part of the brain, a type of stroke, and we need to rule that out. To summarise, you have had sudden, constant spinning dizziness with vomiting from 08:30, last well at 07:00, you cannot walk, and you have double vision, slurred speech, and headache and neck pain, with high blood pressure, diabetes and smoking. I am arranging an urgent CT scan and angiogram, a heart tracing and blood tests, and the stroke team will see you now. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Sudden constant vertigo from 08:30 with vomiting, last well 07:00, unable to walk, double vision, slurred speech, occipital headache and neck pain, vascular risk factors, no hearing symptoms."
+     },
+     {
+      "task": "Ask",
+      "expected": "Onset, constant or episodic, triggers, hearing loss and tinnitus, double vision, speech, weakness, headache, neck pain, falls, vascular risk factors, blood thinners, recent illness."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, glucose, ECG, bloods, stroke team alert, urgent CT and CT angiography, MRI, consider reperfusion eligibility, antiemetic, neurological observations."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient becomes drowsy or vomits repeatedly",
+      "response": "Protect the airway, recheck GCS and glucose, call the senior and stroke team urgently."
+     },
+     {
+      "situation": "Examiner asks about the time window",
+      "response": "State the last known well time of 07:00 and the relevant treatment windows."
+     },
+     {
+      "situation": "Patient insists it is an ear problem",
+      "response": "Explain that a stroke must be excluded first because the symptoms overlap."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Vertigo",
+      "say": "A spinning sensation"
+     },
+     {
+      "term": "Nystagmus",
+      "say": "Jerky movements of the eyes"
+     },
+     {
+      "term": "Ataxia",
+      "say": "Poor balance and coordination"
+     },
+     {
+      "term": "BPPV",
+      "say": "Brief spinning triggered by head movement, from loose crystals in the inner ear"
+     },
+     {
+      "term": "Vestibular neuritis",
+      "say": "Inflammation of the balance nerve, often after a virus"
+     },
+     {
+      "term": "Posterior stroke",
+      "say": "A stroke affecting the back part of the brain"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Is it my ears?",
+      "reply": "\"It might be, but your symptoms mean we must rule out a stroke first.\""
+     },
+     {
+      "question": "Could it be a stroke?",
+      "reply": "\"It could. We are doing urgent tests and the stroke team will see you.\""
+     },
+     {
+      "question": "Will the scan show it?",
+      "reply": "\"A CT can miss some strokes at the back of the brain, so you may need an MRI too.\""
+     },
+     {
+      "question": "Can I go home?",
+      "reply": "\"Not yet. We need to find the cause safely.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Treating it as an ear problem without excluding posterior stroke.",
+     "Not asking about double vision, speech, walking and headache.",
+     "No last known well time, or no stroke team involvement.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "How do you separate peripheral from central causes?",
+      "answer": "- Peripheral (BPPV, vestibular neuritis): brief positional episodes, or continuous vertigo for days after a virus, normal hearing in neuritis, able to walk, horizontal nystagmus.\n- Central (posterior stroke): sudden onset, vascular risk factors, severe unsteadiness (cannot walk), headache or neck pain, diplopia, dysarthria, ataxia, direction-changing or vertical nystagmus."
+     },
+     {
+      "question": "What is HINTS and who is it for?",
+      "answer": "- Head impulse, nystagmus and test of skew, used by trained examiners in acute continuous vertigo with nystagmus.\n- A normal head impulse, direction-changing nystagmus or skew deviation suggests a central cause.\n- Not for episodic positional vertigo. CT can miss posterior strokes, and MRI is more sensitive."
+     },
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- ABCDE, glucose, ECG, bloods, FAST and posterior circulation signs, alert the stroke team.\n- Urgent CT head and CT angiography, MRI where available.\n- Antiemetic, fluids, neurological observations, and consider reperfusion eligibility from the last known well time."
+     },
+     {
+      "question": "How do BPPV and vestibular neuritis differ in treatment?",
+      "answer": "- BPPV: brief positional episodes, Dix-Hallpike positive, treated with the Epley manoeuvre.\n- Vestibular neuritis: continuous vertigo with normal hearing, short-course vestibular suppressants and early mobilisation."
+     }
+    ],
+    "teachingPoints": [
+     "Acute dizziness with vascular risk factors needs a stroke assessment.",
+     "Inability to walk is a strong central red flag.",
+     "CT can miss posterior circulation strokes.",
+     "BPPV is brief and positional; vestibular neuritis is continuous with normal hearing."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "head-injury",
+   "title": "Head injury",
+   "group": "Head injury and raised pressure",
+   "category": "Head injury and raised pressure",
+   "summary": "Assess history taking after a head injury in an older anticoagulated patient, identifying CT head criteria, the cause of the fall, and safe discharge or admission decisions.",
+   "imageUrl": "/brand/t1.jpg",
+   "status": "published",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 12,
+   "content": {
+    "aim": "Assess history taking after a head injury in an older anticoagulated patient, identifying CT head criteria, the cause of the fall, and safe discharge or admission decisions.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mrs Joan Bell, 78, has been brought in by her daughter Karen after a fall at home. Observations: BP 146/84, HR 82 irregular, GCS 15, glucose 6.4. Take a focused history from both. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Daughter",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Joan: slipped on a wet kitchen floor about 3 hours ago and hit the right side of her head on the counter. Remembers the slip but not the next few minutes. Headache, mild neck ache, nausea, vomited once.",
+       "Karen: found her on the floor, drowsy for about a minute, then confused for a few minutes. No fit. A swelling on the right side of her head.",
+       "No weakness, speech problems, vision change, or bleeding from the ears or nose. No chest pain, palpitations or dizziness before the fall.",
+       "Atrial fibrillation on apixaban (last dose this morning), hypertension on ramipril. No alcohol. No allergies.",
+       "Lives alone, daughter nearby, independent. Two other falls in the last year.",
+       "Concern if asked: \"Will I need a scan? Will I be sent home? Will I lose my independence?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you confirm your name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Joan Bell, 3rd March 1948."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Could you tell me what happened, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I slipped on the kitchen floor and hit my head on the counter. I do not remember the next few minutes."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Is there anything else?"
+       },
+       {
+        "speaker": "patient",
+        "text": "A headache, and I was sick once."
+       }
+      ]
+     },
+     {
+      "title": "Mechanism and consciousness",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Karen, how did you find your mother?"
+       },
+       {
+        "speaker": "witness",
+        "text": "On the floor, drowsy for about a minute, then confused for a few minutes. No fit."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Joan, did anything happen before the fall, such as dizziness, chest pain or palpitations?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No, I just slipped on the wet floor."
+       }
+      ]
+     },
+     {
+      "title": "Head injury symptoms",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "How many times have you been sick? Any weakness, speech or vision problems, bleeding from the ears or nose, or neck pain?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Once. No weakness, speech or vision problems, and no bleeding. A little neck ache."
+       }
+      ]
+     },
+     {
+      "title": "Blood thinners and background",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Do you take any blood thinners or other medicines? When was your last dose?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Apixaban for my heart rhythm, this morning, and ramipril."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any alcohol, previous falls, or other conditions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No alcohol. Two other falls this year. Atrial fibrillation and high blood pressure."
+       }
+      ]
+     },
+     {
+      "title": "Social, concerns and summary",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Who is at home, and how independent are you? What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I live alone and manage by myself. Karen lives nearby. Will I need a scan? Will I be sent home? Will I lose my independence?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "Those are fair questions. Because you take a blood thinner, hit your head and blacked out briefly, you need a CT scan of your head. To summarise, you slipped three hours ago, hit your head, were drowsy for a minute, vomited once, and take apixaban, with atrial fibrillation and two earlier falls. I will arrange a CT head scan, check your neck and heart rhythm, and decide with the senior about observation. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Fall three hours ago with head strike, brief loss of consciousness and amnesia, one vomit, headache, apixaban for AF last taken this morning, age 78, two previous falls, lives alone."
+     },
+     {
+      "task": "Ask",
+      "expected": "Mechanism, consciousness and amnesia, vomiting, headache, neurological symptoms, bleeding from ears or nose, neck pain, cause of fall, anticoagulants and last dose, alcohol, previous falls, home support."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, glucose, GCS and neurological observations, cervical spine assessment, CT head per criteria including anticoagulation, ECG, review the cause of the fall, safe discharge or admission."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "GCS drops",
+      "response": "Call the senior and critical care, repeat CT urgently, tell neurosurgery."
+     },
+     {
+      "situation": "Patient wants to go home",
+      "response": "Explain the risk of delayed bleeding on a blood thinner and why observation is advised."
+     },
+     {
+      "situation": "Neck pain is significant",
+      "response": "Immobilise and assess the cervical spine before moving her."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Head injury",
+      "say": "A blow to the head that may affect the brain"
+     },
+     {
+      "term": "Loss of consciousness",
+      "say": "Blacking out"
+     },
+     {
+      "term": "Amnesia",
+      "say": "Memory loss for events around the injury"
+     },
+     {
+      "term": "CT head",
+      "say": "A quick scan that takes pictures of the brain"
+     },
+     {
+      "term": "Anticoagulant",
+      "say": "A blood thinner"
+     },
+     {
+      "term": "Intracranial bleed",
+      "say": "Bleeding inside the skull"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Will I need a scan?",
+      "reply": "\"Yes. Your blood thinner and the blackout mean we should scan your head.\""
+     },
+     {
+      "question": "Will I be sent home?",
+      "reply": "\"It depends on the scan and how you are afterwards. We may keep you for observation.\""
+     },
+     {
+      "question": "Is the blood thinner a problem?",
+      "reply": "\"It can raise the risk of bleeding, so we check carefully and will advise on your next dose.\""
+     },
+     {
+      "question": "Will I lose my independence?",
+      "reply": "\"We will look at why you fell and support you so you can stay safe at home.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Not asking about anticoagulants and the last dose.",
+     "Not asking why she fell (syncope, arrhythmia).",
+     "No CT or cervical spine decision, or no safe discharge advice.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "Which patients need an immediate CT head?",
+      "answer": "- GCS under 13 on assessment or under 15 at two hours, suspected open, depressed or basal skull fracture, post-traumatic seizure, focal neurological deficit, or more than one vomit.\n- These need CT within 1 hour, per NICE head injury guidance."
+     },
+     {
+      "question": "What about anticoagulated and older patients?",
+      "answer": "- Anticoagulant use (including DOACs) is a CT indication within the time frame in current NICE guidance, even if otherwise well.\n- Age 65 or over with loss of consciousness or amnesia is also an indication.\n- Check the current guidance for exact timings."
+     },
+     {
+      "question": "What else needs assessing?",
+      "answer": "- Cause of the fall (syncope, arrhythmia, mechanical) and falls risk.\n- Cervical spine, other injuries, medication review, social support.\n- Safe discharge with observation, or admission."
+     },
+     {
+      "question": "What discharge advice do you give?",
+      "answer": "- A responsible adult at home for 24 hours and written head injury advice.\n- Return for worsening headache, repeated vomiting, drowsiness, confusion, weakness, seizure, or fluid from the ears or nose."
+     }
+    ],
+    "teachingPoints": [
+     "Anticoagulants and age over 65 change the CT head threshold.",
+     "Always ask why the person fell.",
+     "Assess the cervical spine.",
+     "Give clear discharge advice and safety netting."
+    ],
+    "resources": []
+   }
+  },
+  {
+   "slug": "wernicke-encephalopathy",
+   "title": "Wernicke encephalopathy",
+   "group": "Collapse and altered consciousness",
+   "category": "Collapse and altered consciousness",
+   "summary": "Assess history taking in a confused, unsteady patient with heavy alcohol use, recognising Wernicke encephalopathy, alcohol withdrawal and head injury, and giving thiamine early.",
+   "imageUrl": "/brand/t2.jpg",
+   "status": "draft",
+   "featured": false,
+   "showOnHome": false,
+   "sortOrder": 13,
+   "content": {
+    "aim": "Assess history taking in a confused, unsteady patient with heavy alcohol use, recognising Wernicke encephalopathy, alcohol withdrawal and head injury, and giving thiamine early.",
+    "learningOutcomes": [],
+    "instructions": "You are the emergency doctor. Mr Gary Nolan, 48, has been brought in by his friend Dave, who found him confused and unsteady at home. Observations: HR 108, BP 138/86, temperature 36.9, SpO2 97%, glucose 5.6. Take a focused history from both. **Do not examine.** At the end, summarise and state your initial plan.",
+    "witnessLabel": "Friend",
+    "timing": {
+     "historyMin": 8,
+     "examinerMin": 2
+    },
+    "totalMarks": 20,
+    "actorBriefs": [
+     {
+      "role": "Actor brief",
+      "notes": [],
+      "items": [
+       "Gary: vague about the date. \"My legs will not work properly and things look double.\" Feels sick.",
+       "Dave: about a bottle of vodka a day for years, barely eating for two weeks, vomiting most mornings, weight loss. Last drink about 12 hours ago.",
+       "Two days of unsteadiness and confusion. A fall yesterday with a head strike, no known loss of consciousness. Double vision since this morning. No fits.",
+       "Past withdrawal: shakes and sweats, one fit three years ago after stopping suddenly. No hallucinations now. Mild tremor.",
+       "No regular medicines, no known liver disease, no other drugs. Smokes 20 a day.",
+       "Lives alone, Dave visits daily. Low mood recently but no thoughts of self-harm when asked. Concern if asked: \"Am I going to be told off? Will I die?\""
+      ],
+      "table": []
+     }
+    ],
+    "history": [
+     {
+      "title": "Introduction and open question",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Hello, I am Dr Shah, one of the emergency doctors. Can you tell me your full name and date of birth?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Gary Nolan. I am not sure of the date."
+       },
+       {
+        "speaker": "doctor",
+        "text": "That is fine. Could you tell me what has been happening, in your own words?"
+       },
+       {
+        "speaker": "patient",
+        "text": "My legs will not work properly and things look double."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Thank you. Dave, may I ask you too?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Yes. I found him confused and unsteady."
+       }
+      ]
+     },
+     {
+      "title": "Alcohol history",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Dave, how much does Gary drink, and when was his last drink?"
+       },
+       {
+        "speaker": "witness",
+        "text": "About a bottle of vodka a day for years. His last drink was about twelve hours ago."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Has he been eating, vomiting or losing weight?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Barely eating for two weeks, vomiting most mornings, and he has lost weight."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Gary, when you stopped drinking before, did you have shakes, sweats, fits or see things that were not there?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Shakes and sweats. One fit three years ago. Nothing seen now."
+       }
+      ]
+     },
+     {
+      "title": "Neurological features and head injury",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "How long have the unsteadiness and confusion been going on?"
+       },
+       {
+        "speaker": "witness",
+        "text": "Two days, and the double vision started this morning."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Any fall or head injury? Any headache, weakness or speech problems?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I fell yesterday and hit my head. No weakness or speech problems."
+       }
+      ]
+     },
+     {
+      "title": "Background and risks",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "Any medical conditions, liver problems, medicines, other drugs or allergies?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. I smoke twenty a day."
+       },
+       {
+        "speaker": "doctor",
+        "text": "Who is at home, and how is your mood? Any thoughts of harming yourself?"
+       },
+       {
+        "speaker": "patient",
+        "text": "I live alone and Dave visits. My mood has been low, but no thoughts of harming myself."
+       }
+      ]
+     },
+     {
+      "title": "Concerns and plan",
+      "lines": [
+       {
+        "speaker": "doctor",
+        "text": "What worries you most?"
+       },
+       {
+        "speaker": "patient",
+        "text": "Am I going to be told off? Will I die?"
+       },
+       {
+        "speaker": "doctor",
+        "text": "Not at all. You are here to be looked after. To summarise, you drink heavily and have eaten very little, and you have two days of confusion, unsteadiness and double vision, a fall with a head strike, and signs of withdrawal. This could be a vitamin B1 deficiency affecting the brain, called Wernicke encephalopathy. I am giving you vitamin B1 through a drip now, checking blood sugar and salts, treating the withdrawal, and arranging a head scan. The alcohol support team will see you too. Any questions?"
+       },
+       {
+        "speaker": "patient",
+        "text": "No. Thank you."
+       }
+      ]
+     }
+    ],
+    "markScheme": [
+     {
+      "domain": "Introduction, consent and ID check",
+      "max": 2
+     },
+     {
+      "domain": "Open question and prompt",
+      "max": 2
+     },
+     {
+      "domain": "Onset, timing and course",
+      "max": 3
+     },
+     {
+      "domain": "Focused symptom screen",
+      "max": 3
+     },
+     {
+      "domain": "Red flags and risk screen",
+      "max": 3
+     },
+     {
+      "domain": "PMH, drugs, allergies, family, social",
+      "max": 2
+     },
+     {
+      "domain": "Ideas, concerns, expectations",
+      "max": 1
+     },
+     {
+      "domain": "Summary and plan",
+      "max": 2
+     },
+     {
+      "domain": "Communication and empathy",
+      "max": 2
+     }
+    ],
+    "globalRating": [],
+    "commonErrors": [],
+    "examinerExpects": [
+     {
+      "task": "Do",
+      "expected": "Introduce yourself, check name and date of birth, start with an open question, listen, signpost, summarise and state a plan."
+     },
+     {
+      "task": "Find",
+      "expected": "Heavy daily alcohol use, poor intake and vomiting, two days of confusion, ataxia and double vision, fall with head strike, last drink twelve hours ago, previous withdrawal fit, low mood without self-harm thoughts."
+     },
+     {
+      "task": "Ask",
+      "expected": "Amount and pattern of drinking, last drink, nutrition and vomiting, previous withdrawal seizures or delirium, neurological symptoms, falls and head injury, liver disease, medicines, other drugs, mood and safety, social support."
+     },
+     {
+      "task": "Manage",
+      "expected": "Say aloud: ABCDE, glucose, high-dose IV thiamine immediately, bloods and electrolytes, withdrawal assessment and benzodiazepines per protocol, CT head, admit, alcohol liaison."
+     },
+     {
+      "task": "React",
+      "expected": "Acknowledge fear, stay calm, do not falsely reassure, say you would ask the senior when unsure."
+     }
+    ],
+    "reactions": [
+     {
+      "situation": "Patient becomes agitated or sees things",
+      "response": "Think of alcohol withdrawal delirium, give benzodiazepines per protocol, keep him safe, call for help."
+     },
+     {
+      "situation": "Patient feels judged",
+      "response": "Respond without blame and explain the plan is to help him."
+     },
+     {
+      "situation": "Patient refuses admission",
+      "response": "Assess capacity, explain the risks, involve the senior."
+     }
+    ],
+    "plainLanguage": [
+     {
+      "term": "Wernicke encephalopathy",
+      "say": "Brain damage from low vitamin B1, often with heavy alcohol use"
+     },
+     {
+      "term": "Ataxia",
+      "say": "Poor balance and coordination"
+     },
+     {
+      "term": "Withdrawal",
+      "say": "Symptoms after stopping alcohol, such as shakes, sweats and fits"
+     },
+     {
+      "term": "Delirium tremens",
+      "say": "A severe withdrawal state with confusion and hallucinations"
+     },
+     {
+      "term": "Thiamine",
+      "say": "Vitamin B1, given through a drip"
+     },
+     {
+      "term": "Alcohol liaison",
+      "say": "A team that supports people with alcohol problems"
+     }
+    ],
+    "patientQuestions": [
+     {
+      "question": "Am I going to be told off?",
+      "reply": "\"No. We are here to look after you.\""
+     },
+     {
+      "question": "Will I die?",
+      "reply": "\"This is serious but treatable, and we are starting treatment now.\""
+     },
+     {
+      "question": "Will the confusion go away?",
+      "reply": "\"Treating early gives the best chance of recovery.\""
+     },
+     {
+      "question": "What about the drinking?",
+      "reply": "\"The alcohol team can help you safely, when you are ready.\""
+     }
+    ],
+    "howToAnswer": [],
+    "redFlags": [
+     "Missing alcohol quantity, last drink and nutrition.",
+     "Giving glucose without thiamine, or delaying thiamine.",
+     "No head injury assessment, or no withdrawal plan.",
+     "No summary or plan, or jargon without explanation."
+    ],
+    "questions": [
+     {
+      "question": "What are your immediate actions?",
+      "answer": "- ABCDE, glucose, ECG, bloods (U&E, magnesium, phosphate, LFTs, FBC, clotting).\n- High-dose IV thiamine (Pabrinex) immediately, before or with glucose.\n- Withdrawal assessment and benzodiazepine regimen per protocol, electrolyte replacement, CT head after the fall, admission."
+     },
+     {
+      "question": "What is the classic triad?",
+      "answer": "- Confusion, ataxia and eye signs (ophthalmoplegia or nystagmus).\n- Only a minority have all three, so treat on suspicion in any heavy drinker with confusion."
+     },
+     {
+      "question": "Why give thiamine before glucose?",
+      "answer": "- Glucose can use up thiamine and precipitate or worsen Wernicke encephalopathy.\n- Give thiamine first or together with glucose."
+     },
+     {
+      "question": "What are the risks of alcohol withdrawal?",
+      "answer": "- Seizures (about 6 to 48 hours), and delirium tremens (about 48 to 96 hours) with hallucinations, agitation and autonomic instability.\n- Treat with benzodiazepines and monitor with a withdrawal scale. Untreated Wernicke may progress to Korsakoff syndrome."
+     }
+    ],
+    "teachingPoints": [
+     "Treat Wernicke on suspicion in any heavy drinker with confusion.",
+     "Give thiamine before or with glucose.",
+     "Assess withdrawal and treat early.",
+     "Look for head injury and other causes of confusion."
+    ],
+    "resources": []
+   }
+  }
+ ]
+}

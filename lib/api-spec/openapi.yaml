@@ -1,0 +1,235 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: media
+    description: Course video and document delivery
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+  /admin/media/upload-url:
+    post:
+      operationId: requestCourseMediaUploadUrl
+      tags: [media]
+      summary: Create a short-lived upload URL
+      security:
+        - AdminSessionCookie: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MediaUploadInput"
+      responses:
+        "200":
+          description: Short-lived signed upload URL
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MediaUploadUrl"
+        "400":
+          description: Invalid upload metadata
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "401":
+          description: Admin session required
+  /admin/media:
+    post:
+      operationId: registerCourseMedia
+      tags: [media]
+      summary: Verify an uploaded file and register its database metadata
+      security:
+        - AdminSessionCookie: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MediaRegistrationInput"
+      responses:
+        "201":
+          description: Registered file
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CourseAsset"
+        "400":
+          description: Invalid metadata or incomplete upload
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "401":
+          description: Admin session required
+  /admin/courses/{id}/media:
+    get:
+      operationId: listCourseMedia
+      tags: [media]
+      summary: List files belonging to a course
+      security:
+        - AdminSessionCookie: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        "200":
+          description: Course files
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/CourseAsset"
+        "401":
+          description: Admin session required
+  /admin/media/{id}:
+    delete:
+      operationId: deleteCourseMedia
+      tags: [media]
+      summary: Permanently delete a file from storage and its metadata
+      security:
+        - AdminSessionCookie: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        "200":
+          description: File deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [ok]
+                properties:
+                  ok:
+                    type: boolean
+        "401":
+          description: Admin session required
+  /media/{id}:
+    get:
+      operationId: getCourseMedia
+      tags: [media]
+      summary: Stream a file attached to a published course or station
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        "200":
+          description: File stream (served only when published, except unlinked cover images)
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+        "404":
+          description: File unavailable
+components:
+  securitySchemes:
+    AdminSessionCookie:
+      type: apiKey
+      in: cookie
+      name: osce_admin
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+    MediaUploadInput:
+      type: object
+      required: [filename, mimeType, size]
+      properties:
+        filename:
+          type: string
+          minLength: 1
+          maxLength: 200
+        mimeType:
+          type: string
+          enum: [image/jpeg, image/png, image/webp, video/mp4, video/webm, application/pdf]
+        size:
+          type: integer
+          minimum: 1
+    MediaRegistrationInput:
+      allOf:
+        - $ref: "#/components/schemas/MediaUploadInput"
+        - type: object
+          required: [objectPath]
+          properties:
+            objectPath:
+              type: string
+              pattern: "^/objects/uploads/[a-zA-Z0-9-]+$"
+            courseId:
+              type: integer
+              minimum: 1
+            stationId:
+              type: integer
+              minimum: 1
+    MediaUploadUrl:
+      type: object
+      required: [uploadURL, objectPath]
+      properties:
+        uploadURL:
+          type: string
+          format: uri
+        objectPath:
+          type: string
+    CourseAsset:
+      type: object
+      required: [id, filename, mimeType, size, createdAt, url]
+      properties:
+        id:
+          type: integer
+        filename:
+          type: string
+        mimeType:
+          type: string
+        size:
+          type: integer
+        createdAt:
+          type: string
+          format: date-time
+        url:
+          type: string
+          format: uri-reference
+    ErrorResponse:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: string
+

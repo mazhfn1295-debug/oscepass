@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "OSCEPASS"
+description = "A responsive emergency medicine and OSCE learning platform, combining teaching, neurological practice stations, and structured exam preparation for medical learners."
+version = "1.0.0"
+id = "artifacts/oscepass"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21643
+
+[services.development]
+run = "pnpm --filter @workspace/oscepass run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/oscepass", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/oscepass/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21643"
+BASE_PATH = "/"
